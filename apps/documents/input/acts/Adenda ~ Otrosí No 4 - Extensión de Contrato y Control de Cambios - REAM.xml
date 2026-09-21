@@ -22,7 +22,7 @@
           Fecha de Elaboración:
           <S />
         </Text>
-        16 de septiembre de 2026
+        21 de septiembre de 2026
       </Text>
     </Section>
 
@@ -133,16 +133,28 @@
         <Text bold="1">Validación Funcional Satisfactoria:</Text> EL CONTRATANTE
         ejecutará sus pruebas enfocadas exclusivamente en el funcionamiento
         lógico de los estados y bloqueos descritos en las Secciones 1, 2 y 3 del
-        Control de Cambios No. 1. Si durante los dos (2) días hábiles de QA se
-        presentan errores o inconsistencias sobre este alcance, EL CONTRATISTA
-        los corregirá sin costo adicional.
+        Control de Cambios No. 1.
       </Paragraph>
       <Paragraph>
-        Se entenderá alcanzada la "Validación Funcional Satisfactoria" una vez
-        superados los dos (2) días hábiles de QA sin que existan fallos
-        pendientes de corrección reportados formalmente sobre el flujo del
-        Control de Cambios No. 1, habilitando la facturación del HITO 2.
+        Si durante los dos (2) días hábiles de QA, EL CONTRATANTE reporta
+        formalmente errores o inconsistencias que se encuentren dentro de dicho
+        alcance, estos deberán ser corregidos por EL CONTRATISTA sin costo
+        adicional. En este escenario, la validación funcional satisfactoria se
+        entenderá cumplida una vez realizadas las correcciones y verificada su
+        solución por parte de EL CONTRATANTE en un plazo máximo de un (1) día
+        hábil posterior a la notificación de corrección.
       </Paragraph>
+      <Paragraph>
+        En caso de no existir reportes formales de fallos enmarcados en el
+        alcance durante el periodo de pruebas estipulado, se considerará
+        otorgada la validación funcional satisfactoria de manera inmediata.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="0" flex="1" justifyContent="center">
+      <Italic textAlign="center">
+        Espacio dejado en blanco intencionalmente
+      </Italic>
     </Section>
 
     <Section wrap="0">
@@ -150,13 +162,16 @@
         CLÁUSULA CUARTA - GARANTÍAS PREVIAS Y VIGENCIA CONTRACTUAL:
       </Title>
       <Paragraph>
-        El presente Otrosí no modifica, sustituye ni limita las garantías
-        previamente pactadas sobre los demás módulos de la Fase 1. Cualquier
-        soporte o inconsistencia identificada en módulos ajenos al Control de
-        Cambios No. 1 será atendida oportunamente bajo las condiciones de
-        garantía del contrato principal, pero no constituirá causal válida para
-        condicionar o retener el pago del HITO 2, cuyo criterio de aceptación se
-        rige exclusivamente por la Cláusula Tercera.
+        El presente Otrosí no modifica, sustituye ni limita las garantías,
+        obligaciones o responsabilidades previamente pactadas respecto de los
+        demás módulos y componentes de la Fase 1.
+      </Paragraph>
+      <Paragraph>
+        El criterio de validación y habilitación del pago del HITO 2 se
+        circunscribe exclusivamente al cumplimiento y validación funcional
+        satisfactoria del alcance establecido en las Secciones 1, 2 y 3 del
+        Control de Cambios No. 1, conforme a la Cláusula Tercera del presente
+        Otrosí.
       </Paragraph>
       <Paragraph>
         Las demás cláusulas del contrato original mantienen su plena validez y
@@ -166,7 +181,7 @@
 
     <Section wrap="1">
       <Paragraph>
-        Para constancia y en señal de absoluta conformidad, se firma a los 16
+        Para constancia y en señal de absoluta conformidad, se firma a los 21
         días del mes de septiembre de 2026.
       </Paragraph>
     </Section>
