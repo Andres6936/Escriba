@@ -19,6 +19,7 @@ import {
 
 // Complex Component
 import Cover from "~/pdf/components/cover";
+import { BorderDecoration } from "~/pdf/components/border";
 import { VerticalLetter } from "../components/cover/vertical-letter";
 import IndicatorHeader from "~/pdf/components/cover/indicator-header";
 
@@ -39,6 +40,7 @@ import { getBufferSeals } from "~/pdf/utility/buffer-seals";
 const components: ComponentMap = {
   // Complex Component
   IndicatorHeader,
+  BorderDecoration,
 
   // Sign Component
   SignSection,
