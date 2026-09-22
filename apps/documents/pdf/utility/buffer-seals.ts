@@ -79,7 +79,7 @@ const getBufferSeals = async ({
   const sealBuffer = Buffer.from(await sealFile.bytes());
   const codeSvg = qrcode("https://andres6936.dev/", {
     margin: 0,
-    color: "#f8f4e3",
+    color: "#FFF8E7",
     background: "#00000000",
     corners: {
       topLeft: {

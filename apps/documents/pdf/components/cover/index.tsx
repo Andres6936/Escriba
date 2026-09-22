@@ -40,7 +40,7 @@ export default function Component(props: Props) {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "flex-start",
-          backgroundColor: "#f8f4e3",
+          backgroundColor: "#FFF8E7",
           padding: "1cm",
           color: "#14192f",
           position: "relative",

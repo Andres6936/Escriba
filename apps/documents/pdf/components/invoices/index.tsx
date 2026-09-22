@@ -24,7 +24,7 @@ const Pagination = (props: React.ComponentPropsWithRef<typeof Page>) => {
         fontSize: "12pt",
         fontFamily: "Geist",
         fontWeight: "normal",
-        backgroundColor: "#f8f4e3",
+        backgroundColor: "#FFF8E7",
       }}
     />
   );

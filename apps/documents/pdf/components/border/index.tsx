@@ -1,7 +1,7 @@
 import { View, Svg, Circle, Path, G } from "@react-pdf/renderer";
 
 const Mark = ({
-  fill = "#dfdbcc",
+  fill = "#CCC",
   ...props
 }: React.ComponentPropsWithRef<typeof Svg> = {}) => (
   <Svg viewBox="0 0 512 512" fill={fill} {...props}>

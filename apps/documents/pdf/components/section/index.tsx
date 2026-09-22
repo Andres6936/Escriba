@@ -16,7 +16,7 @@ const Paginate = (props: React.ComponentPropsWithRef<typeof Page>) => {
           fontSize: "11pt",
           fontFamily: "Geist",
           fontWeight: "light",
-          backgroundColor: "#f8f4e3",
+          backgroundColor: "#FFF8E7",
           paddingVertical: "2cm",
           paddingHorizontal: "2.5cm",
           color: "#14192f",
