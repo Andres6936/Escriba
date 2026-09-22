@@ -1,11 +1,17 @@
 import React from "react";
 import { type NodeProps, Page, View } from "@react-pdf/renderer";
 import { mergeStyles } from "~/pdf/utility/merge-props";
-import { flatten } from "@react-pdf/stylesheet";
 
 type StylesNode = NodeProps["style"];
 
-const Paginate = (props: React.ComponentPropsWithRef<typeof Page>) => {
+const Paginate = ({
+  paddingVertical = "2cm",
+  paddingHorizontal = "2.5cm",
+  ...props
+}: React.ComponentPropsWithRef<typeof Page> & {
+  paddingVertical?: string | number;
+  paddingHorizontal?: string | number;
+} = {}) => {
   return (
     <Page
       {...props}
@@ -17,9 +23,9 @@ const Paginate = (props: React.ComponentPropsWithRef<typeof Page>) => {
           fontFamily: "Geist",
           fontWeight: "light",
           backgroundColor: "#FFF8E7",
-          paddingVertical: "2cm",
-          paddingHorizontal: "2.5cm",
           color: "#14192f",
+          paddingVertical,
+          paddingHorizontal,
         },
         props.style,
       )}
