@@ -1,0 +1,407 @@
+<Document
+  subject="Otrosí No. 4 Consolidado"
+  title="Plataforma Residuos Ambientales"
+  author="Joan Andrés Buriticá Salazar"
+  keywords="Otrosí, Extensión, Pago, Contrato, Liquidación, Validación, Flujo de Cartera"
+  creator="Joan Andrés Buriticá Salazar"
+  producer="React PDF with Bun"
+  language="es"
+>
+  <Cover
+    month="Septiembre 2026"
+    title="Liquidación de Fase 1 y Adición de Alcance"
+    type="Otrosí ~ No. 4"
+    scaleTitle="0.83"
+  />
+
+  <Paginate paddingHorizontal="1.9cm">
+    <IndicatorHeader value="Ing. Joan A. Buriticá" />
+    <Section marginTop="0" gap="0.1cm">
+      <Text>
+        <Text bold="1">
+          Fecha de Elaboración:
+          <S />
+        </Text>
+        29 de septiembre de 2026
+      </Text>
+    </Section>
+
+    <Section wrap="1">
+      <Title>
+        OTROSÍ NO. 4 (VERSIÓN CONSOLIDADA) AL CONTRATO DE PRESTACIÓN DE
+        SERVICIOS
+      </Title>
+      <Paragraph>
+        Entre los suscritos, por una parte, JOAN ANDRÉS BURITICÁ SALAZAR,
+        actuando en nombre propio, en adelante EL CONTRATISTA, y por la otra,
+        RESIDUOS AMBIENTALES S.A.S. (REAM), representada legalmente por YOMAIRA
+        BEYTAR FLOREZ, en adelante EL CONTRATANTE, acuerdan celebrar el presente
+        OTROSÍ NO. 4, integrando en un solo documento las modificaciones
+        operativas y financieras, previas las siguientes consideraciones:
+      </Paragraph>
+    </Section>
+
+    <Section wrap="1">
+      <Title size="xs" textAlign="left"> CONSIDERACIONES: </Title>
+      <BulletText>
+        <Text bold="1">1.</Text> Que las partes suscribieron un contrato
+        principal para el desarrollo de la "Plataforma de Gestión Logística y
+        Administrativa".
+      </BulletText>
+      <BulletText>
+        <Text bold="1">2.</Text> Que EL CONTRATANTE solicitó una modificación en
+        la arquitectura operativa de los estados de cartera, la cual fue
+        detallada, costeada y aprobada técnicamente mediante el documento anexo
+        "Control de Cambios No. 1", por un valor pactado de $366.618 COP.
+      </BulletText>
+      <BulletText>
+        <Text bold="1">3.</Text> Que las partes reconocen la existencia de
+        valores económicos pendientes a favor de EL CONTRATISTA por valor de
+        $2.788.214 COP asociados a la Fase 1, cuya liquidación y pago, por mutuo
+        acuerdo de flexibilización, se unificará y sujetará a las condiciones de
+        entrega y validación del presente Otrosí.
+      </BulletText>
+      <BulletText>
+        <Text bold="1">4.</Text> Que, para garantizar la trazabilidad absoluta y
+        el cierre del proyecto, las partes acuerdan consolidar en este único
+        documento el alcance técnico requerido y el esquema de flexibilización
+        de pagos (50/50).
+      </BulletText>
+      <Paragraph>
+        Con base en lo anterior, las partes acuerdan las siguientes cláusulas:
+      </Paragraph>
+    </Section>
+
+    <Section wrap="1">
+      <Title size="xs" textAlign="left">
+        CLÁUSULA PRIMERA - ALCANCE TÉCNICO Y ESPECIFICACIÓN FUNCIONAL:
+      </Title>
+      <Paragraph>
+        Se adiciona al Contrato Principal el siguiente flujo operativo, el cual
+        rige de forma exclusiva el comportamiento automatizado de la cartera y
+        constituye el único criterio de referencia válido para las pruebas y la
+        validación:
+      </Paragraph>
+
+      <Text bold="1" opacity="0.8">A. Cronograma y Disparadores:</Text>
+      <BulletText>
+        <Text bold="1">Día 01 de cada mes (Facturación Normal):</Text> Se genera
+        normalmente la factura correspondiente al nuevo periodo para todos los
+        clientes que se encuentren dentro del flujo normal. Esto incluye a los
+        clientes que tengan pendiente la factura del mes anterior, siempre que
+        todavía no hayan llegado a la condición de "Suspensión" o "Retiro
+        temporal". La nueva factura quedará con fecha de vencimiento para pago
+        anticipado el día 10 del mismo mes. Ese mismo Día 01 se enviará la
+        comunicación informando la generación de la nueva factura.
+      </BulletText>
+
+      <Indent>
+        <Text>
+          <Text bold="1"> Importante:</Text> Tener una factura pendiente del mes
+          anterior no impide que se genere la nueva factura el Día 01 mientras
+          el cliente continúe dentro del flujo normal.
+        </Text>
+      </Indent>
+
+      <BulletText>
+        <Text bold="1">Día 11 (Factura del Mes Corriente Pendiente):</Text> Si
+        el pago anticipado no se ha realizado, se envía comunicación informando
+        que la factura se encuentra vencida. El cliente continúa en estado "Al
+        día". El vencimiento del día 10 NO genera automáticamente mora ni
+        suspensión, obedeciendo a que el proceso permite que el cliente realice
+        el pago durante el mes o como plazo máximo hasta el último día hábil.
+      </BulletText>
+
+      <BulletText>
+        <Text bold="1">Día 20 (Recordatorio):</Text> Se envía nuevamente
+        comunicación recordando que existe una factura pendiente de pago.
+      </BulletText>
+
+      <BulletText>
+        <Text bold="1">Día 28 (Aviso Preventivo):</Text> Se envía comunicación
+        indicando que el cliente debe realizar el pago de la factura
+        correspondiente al servicio ya prestado, con el fin de evitar pasar a
+        suspensión conforme al flujo establecido.
+      </BulletText>
+
+      <BulletText>
+        <Text bold="1">Día 01 del mes siguiente (Paso a "En mora"):</Text> Si la
+        factura del mes anterior continúa sin ser pagada, se genera normalmente
+        la nueva factura correspondiente al nuevo periodo (siempre que el
+        cliente aún se encuentre dentro del flujo normal). Simultáneamente, el
+        cliente pasa a estado "En mora" respecto de la factura anterior
+        pendiente. El cliente continúa visible en cartera y programación; sin
+        embargo, el sistema debe impedir la ejecución de una nueva recolección
+        mientras permanezca pendiente la factura anterior.
+      </BulletText>
+
+      <Indent>
+        <Text>
+          <Text bold="1"> Importante:</Text> El paso a "En mora" NO significa
+          que se deje de generar automáticamente la nueva factura, ni que el
+          cliente desaparezca de la programación del nuevo periodo (aunque el
+          sistema bloquee su recolección) mientras aún se encuentre dentro del
+          flujo normal.
+        </Text>
+      </Indent>
+
+      <BulletText>
+        <Text bold="1">Día 11 del segundo mes (Suspensión):</Text> Si para este
+        momento continúa pendiente la factura del mes anterior que originó la
+        mora, y la nueva factura generada el Día 01 también llegó a su
+        vencimiento, el sistema ejecutará lo siguiente: cambiará automáticamente
+        el estado a "Suspensión", enviará la comunicación correspondiente y
+        aplicará las restricciones operativas (el cliente no debe poder ser
+        programado ni atendido mientras permanezca bajo esta condición).
+      </BulletText>
+
+      <Indent>
+        <Text>
+          <Text bold="1"> Importante:</Text> La Suspensión será una consecuencia
+          automática del flujo establecido, y no simplemente un estado que pueda
+          seleccionarse manualmente.
+        </Text>
+      </Indent>
+
+      <BulletText>
+        <Text bold="1"
+          >Pago de la Factura que Originó la Suspensión (Reactivación):</Text
+        >
+        Cuando un cliente se encuentre en Suspensión y pague la factura anterior
+        que originó la mora y la suspensión, el sistema debe actualizar su
+        condición para pasar a estado "Al día". El cliente debe poder nuevamente
+        ser programado y atendido. NO debe impedirse la reactivación por el
+        hecho de que la factura del mes corriente continúe pendiente, ya que
+        esta última todavía pertenece a su propio ciclo de pago.
+      </BulletText>
+
+      <Indent>
+        <Text>
+          <Text bold="1">Adicionalmente:</Text> Si la ruta aún no ha sido
+          ejecutada, el cliente debe quedar disponible para programación y
+          recolección. Si la ruta ya fue ejecutada, debe aparecer como
+          "Pendiente asignar itinerario". Esta diferencia entre la factura que
+          originó la restricción y la factura corriente es fundamental para el
+          funcionamiento del proceso.
+        </Text>
+      </Indent>
+
+      <Text bold="1" opacity="0.8"
+        >B. Retiro Temporal y Regla Estricta de Reactivación:</Text
+      >
+      <Paragraph>
+        El Retiro Temporal se aplicará de manera estricta una vez cumplidas las
+        condiciones y plazos establecidos en el proceso, contemplando un período
+        de dos (2) meses de mora para la primera factura y un (1) mes adicional
+        correspondiente a la segunda factura. El Día 01 del mes siguiente a la
+        consolidación de estos plazos (cumplidos los cuales el cliente acumula
+        dos facturas vencidas sin pagar), el sistema ejecutará automatizadamente
+        las siguientes acciones:
+      </Paragraph>
+
+      <Indent gap="7pt">
+        <BulletText>
+          Cambiar el estado del cliente a "Retiro temporal".
+        </BulletText>
+        <BulletText>
+          Enviar el comunicado correspondiente informando al cliente de su
+          condición.
+        </BulletText>
+        <BulletText>
+          Mantener identificadas las dos facturas pendientes de pago que dieron
+          origen a esta condición.
+        </BulletText>
+        <BulletText>
+          Impedir la programación y prestación del servicio mientras permanezca
+          en este estado.
+        </BulletText>
+        <BulletText>
+          NO generar una nueva factura correspondiente a un nuevo periodo
+          mientras el cliente permanezca en Retiro Temporal.
+        </BulletText>
+      </Indent>
+
+      <Paragraph>
+        <Text bold="1">Regla Estricta de Reactivación:</Text> La salida de
+        Retiro Temporal no se producirá por el pago de una sola factura. Para
+        que el cliente pueda ser nuevamente habilitado, deberá realizar el pago
+        total de las DOS (2) facturas pendientes que dieron origen a la
+        condición.
+      </Paragraph>
+
+      <Paragraph>
+        Una vez el sistema verifique el pago completo de ambas facturas, el
+        comportamiento esperado y automatizado será estrictamente el siguiente:
+        <Text bold="1" opacity="0.8">
+          Retiro temporal → pago de las dos facturas pendientes → actualización
+          del estado → reactivación → programación según corresponda.
+        </Text>
+      </Paragraph>
+
+      <Text bold="1" opacity="0.8"
+        >C. Definición de Estados y Comportamiento Operativo:</Text
+      >
+
+      <Paragraph>
+        Los siguientes estados regirán de forma exclusiva el comportamiento
+        transversal del sistema. Estos deberán encontrarse correctamente
+        relacionados con la cartera, programación, filtros, mensajes y
+        restricciones operativas, definiendo sus alcances de la siguiente
+        manera:
+      </Paragraph>
+
+      <BulletText>
+        <Text bold="1">Al día:</Text> El cliente puede continuar con su
+        operación normal, de acuerdo con las condiciones del servicio y del
+        proceso de facturación.
+      </BulletText>
+
+      <BulletText>
+        <Text bold="1">En mora:</Text> El cliente aparece identificado en
+        cartera y programación, pero no se permite realizarle una nueva recogida
+        hasta que realice el pago de la factura pendiente correspondiente al mes
+        anterior.
+      </BulletText>
+
+      <BulletText>
+        <Text bold="1">Suspensión:</Text> Corresponde al momento en que se
+        cumplen las condiciones establecidas en el flujo para suspender el
+        servicio. El sistema debe cambiar al cliente a este estado, enviar el
+        mensaje correspondiente y aplicar las restricciones operativas
+        definidas. Una vez el cliente pague la factura pendiente del mes
+        anterior que originó la mora y suspensión, debe poder nuevamente ser
+        recogido, aun cuando la factura del mes vigente permanezca pendiente de
+        pago, dado que esta última todavía se encuentra dentro de su propio
+        ciclo de pago.
+      </BulletText>
+
+      <BulletText>
+        <Text bold="1">Retiro temporal:</Text> Corresponde a la etapa posterior
+        en la que se han cumplido los plazos establecidos. El día 01
+        correspondiente se cambia el estado, se comunica al cliente el Retiro
+        temporal y no se genera una nueva factura. El cliente permanece en este
+        estado hasta que realice el pago de las dos facturas pendientes, momento
+        en el cual podrá ser reactivado.
+      </BulletText>
+    </Section>
+
+    <Section wrap="1">
+      <Title size="xs" textAlign="left">
+        CLÁUSULA SEGUNDA - PRESUPUESTO Y ESQUEMA DE PAGOS:
+      </Title>
+      <Paragraph>
+        Para garantizar el cierre del proyecto, las partes acuerdan unificar el
+        pago pendiente de la Fase 1 ($2.788.214 COP) y el valor del desarrollo
+        descrito en la Cláusula Primera ($366.618 COP, correspondiente a 14
+        horas de esfuerzo real con un descuento comercial de 7 horas), sumando
+        una operación total de $3.154.832 COP, ejecutada bajo el siguiente
+        esquema:
+      </Paragraph>
+      <BulletText>
+        <Text bold="1">HITO 1 (Anticipo Habilitante):</Text> EL CONTRATANTE
+        pagará de inmediato
+        <Text bold="1">
+          UN MILLÓN TRESCIENTOS NOVENTA Y CUATRO MIL CIENTO SIETE PESOS M/CTE
+          ($1.394.107 COP)</Text
+        >. El cronograma de desarrollo iniciará a partir del día hábil siguiente
+        a la confirmación de este pago.
+      </BulletText>
+      <BulletText>
+        <Text bold="1">HITO 2 (Liquidación Final):</Text> Una vez alcanzada la
+        Validación Funcional Satisfactoria, y previa presentación de la
+        respectiva cuenta de cobro, EL CONTRATANTE pagará en un plazo máximo de
+        tres (3) días hábiles la suma de
+        <Text bold="1">
+          UN MILLÓN SETECIENTOS SESENTA MIL SETECIENTOS VEINTICINCO PESOS M/CTE
+          ($1.760.725 COP)</Text
+        >, cerrando integralmente esta etapa del proyecto.
+      </BulletText>
+    </Section>
+
+    <Section wrap="1">
+      <Title size="xs" textAlign="left">
+        CLÁUSULA TERCERA - CRONOGRAMA Y MECANISMO DE VALIDACIÓN FUNCIONAL:
+      </Title>
+      <Paragraph>
+        El flujo operativo se regirá por los siguientes tiempos y condiciones:
+      </Paragraph>
+      <Indent gap="7pt">
+        <BulletText>
+          <Text bold="1">Desarrollo:</Text> Tres (3) días hábiles contados a
+          partir del día hábil siguiente a la confirmación del HITO 1.
+        </BulletText>
+        <BulletText>
+          <Text bold="1">Pruebas (QA):</Text> Dos (2) días hábiles posteriores a
+          la notificación de entrega en el entorno de producción.
+        </BulletText>
+      </Indent>
+      <Paragraph>
+        <Text bold="1">Validación Funcional Satisfactoria:</Text> EL CONTRATANTE
+        ejecutará sus pruebas enfocadas exclusivamente en el alcance estipulado
+        en la Cláusula Primera. Si durante los dos (2) días de QA se reportan
+        formalmente errores o inconsistencias dentro de dicho alcance, EL
+        CONTRATISTA los corregirá sin costo. En este escenario, la validación
+        funcional satisfactoria se entenderá cumplida una vez realizadas las
+        correcciones y verificada su solución por parte de EL CONTRATANTE en un
+        plazo máximo de un (1) día hábil posterior a la notificación de
+        corrección.
+      </Paragraph>
+      <Paragraph>
+        En caso de no existir reportes formales de fallos enmarcados en el
+        alcance durante el periodo de pruebas estipulado, se considerará
+        otorgada la validación funcional satisfactoria de manera inmediata.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="0">
+      <Title size="xs" textAlign="left">
+        CLÁUSULA CUARTA - GARANTÍAS PREVIAS Y VIGENCIA CONTRACTUAL:
+      </Title>
+      <Paragraph>
+        El presente Otrosí no modifica, sustituye ni limita las garantías,
+        obligaciones o responsabilidades previamente pactadas respecto de los
+        demás módulos y componentes de la Fase 1.
+      </Paragraph>
+      <Paragraph>
+        El criterio de validación y habilitación del pago del HITO 2 se
+        circunscribe exclusivamente al cumplimiento del alcance establecido en
+        la Cláusula Primera del presente documento. Las demás cláusulas del
+        contrato original mantienen su plena validez y vigor legal.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="0">
+      <Title size="xs" textAlign="left">
+        CLÁUSULA QUINTA - VIGENCIA Y CADUCIDAD DEL DOCUMENTO:
+      </Title>
+      <Paragraph>
+        El presente documento, entendido como un acuerdo de flexibilización
+        técnica y comercial ofrecido por EL CONTRATISTA, tiene una vigencia
+        estricta para su formalización de tres (3) días hábiles contados a
+        partir de su fecha de elaboración.
+      </Paragraph>
+      <Paragraph>
+        En consecuencia, si el presente Otrosí no es suscrito por EL CONTRATANTE
+        a más tardar el viernes 2 de octubre de 2026 a las 5:00 p.m., los
+        acuerdos, descuentos y condiciones aquí plasmados perderán toda validez
+        legal y comercial de manera automática. Cualquier firma puesta con
+        posterioridad a esta fecha y hora se considerará nula, ineficaz y no
+        obligará a EL CONTRATISTA a su ejecución.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="1">
+      <Paragraph>
+        Para constancia y en señal de absoluta conformidad, se firma a los 29
+        días del mes de septiembre de 2026.
+      </Paragraph>
+    </Section>
+
+    <SignSection hiddenTitle="0">
+      <SignRow>
+        <SignPadLeft signBy="Yomaira Beytar Florez, Representante REAM" />
+        <SignMeRight />
+      </SignRow>
+    </SignSection>
+  </Paginate>
+</Document>
