@@ -22,7 +22,7 @@
           Fecha de Elaboración:
           <S />
         </Text>
-        29 de septiembre de 2026
+        30 de septiembre de 2026
       </Text>
     </Section>
 
@@ -77,10 +77,22 @@
         CLÁUSULA PRIMERA - ALCANCE TÉCNICO Y ESPECIFICACIÓN FUNCIONAL:
       </Title>
       <Paragraph>
-        Se adiciona al Contrato Principal el siguiente flujo operativo, el cual
-        rige de forma exclusiva el comportamiento automatizado de la cartera y
-        constituye el único criterio de referencia válido para las pruebas y la
-        validación:
+        Se adiciona al alcance del Contrato Principal el desarrollo contenido en
+        el documento anexo "Control de Cambios No. 1" identificado con el serial
+        <Bold>01A0A672-C792E2DC52AF</Bold>, el cual hace parte integral de este
+        Otrosí. Las especificaciones funcionales contenidas única y
+        exclusivamente en las <Text bold="1">Secciones 1, 2 y 3</Text> de dicho
+        documento constituyen el alcance total acordado y el único criterio de
+        referencia válido para el desarrollo, las pruebas y la validación de
+        esta adición.
+      </Paragraph>
+
+      <Paragraph>
+        A manera de referencia directa y claridad operativa, el flujo estipulado
+        en las <Text bold="1">Secciones 1, 2 y 3</Text> del citado anexo se
+        transcribe a continuación. Cualquier revisión o inconsistencia reportada
+        durante la implementación deberá regirse estrictamente por estos
+        parámetros funcionales:
       </Paragraph>
 
       <Text bold="1" opacity="0.8">A. Cronograma y Disparadores:</Text>
@@ -343,8 +355,8 @@
         CONTRATISTA los corregirá sin costo. En este escenario, la validación
         funcional satisfactoria se entenderá cumplida una vez realizadas las
         correcciones y verificada su solución por parte de EL CONTRATANTE en un
-        plazo máximo de un (1) día hábil posterior a la notificación de
-        corrección.
+        plazo máximo de dos (2) días hábiles posteriores a la notificación de
+        las correcciones.
       </Paragraph>
       <Paragraph>
         En caso de no existir reportes formales de fallos enmarcados en el
@@ -372,27 +384,21 @@
 
     <Section wrap="0">
       <Title size="xs" textAlign="left">
-        CLÁUSULA QUINTA - VIGENCIA Y CADUCIDAD DEL DOCUMENTO:
+        CLÁUSULA QUINTA - EXIGIBILIDAD:
       </Title>
       <Paragraph>
-        El presente documento, entendido como un acuerdo de flexibilización
-        técnica y comercial ofrecido por EL CONTRATISTA, tiene una vigencia
-        estricta para su formalización de tres (3) días hábiles contados a
-        partir de su fecha de elaboración.
-      </Paragraph>
-      <Paragraph>
-        En consecuencia, si el presente Otrosí no es suscrito por EL CONTRATANTE
-        a más tardar el viernes 2 de octubre de 2026 a las 5:00 p.m., los
-        acuerdos, descuentos y condiciones aquí plasmados perderán toda validez
-        legal y comercial de manera automática. Cualquier firma puesta con
-        posterioridad a esta fecha y hora se considerará nula, ineficaz y no
-        obligará a EL CONTRATISTA a su ejecución.
+        Una vez suscrito formalmente por ambas partes dentro del plazo
+        establecido, el presente Otrosí entrará en plena vigencia legal. Sin
+        embargo, en concordancia con el esquema acordado, las obligaciones de
+        desarrollo técnico y los tiempos de entrega a cargo de EL CONTRATISTA
+        solo serán exigibles a partir de la confirmación efectiva del pago del
+        cincuenta por ciento (50 %) correspondiente al HITO 1.
       </Paragraph>
     </Section>
 
     <Section wrap="1">
       <Paragraph>
-        Para constancia y en señal de absoluta conformidad, se firma a los 29
+        Para constancia y en señal de absoluta conformidad, se firma a los 30
         días del mes de septiembre de 2026.
       </Paragraph>
     </Section>
