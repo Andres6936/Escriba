@@ -1,0 +1,174 @@
+<Document
+  subjet="Propuesta Económica"
+  title="Propuesta Técnica y Comercial: Ecosistema E-commerce Inmersivo"
+  author="Joan Andrés Buriticá Salazar"
+  keywords="Propuesta, Comercial"
+  creator="Joan Andrés Buriticá Salazar"
+  producer="Escriba v2026"
+  language="es"
+>
+  <Cover
+    type="Propuesta Económica"
+    title="Storytelling E-commerce Inmersivo"
+    month="Septiembre 2026"
+  />
+  <Paginate>
+    <IndicatorHeader value="Ing. Joan A. Buriticá" />
+    <Section marginTop="0" gap="0.1cm">
+      <Title size="xs" textAlign="left">Visión Estratégica del Proyecto</Title>
+      <Paragraph>
+        El objetivo es materializar la visión de un ecosistema comercial
+        especializado en productos orgánicos, ornamentales y artesanales, donde
+        el diferenciador clave es la identidad de marca y la narrativa visual
+        (storytelling). El foco de la plataforma no será la exhibición masiva de
+        catálogos genéricos, sino la presentación inmersiva de cada artículo,
+        conectando al cliente final con la historia, el origen y el valor del
+        proveedor detrás del producto.
+      </Paragraph>
+    </Section>
+
+    <Section>
+      <Title size="xs" textAlign="left">
+        Arquitectura Tecnológica (Comercio Desacoplado)
+      </Title>
+
+      <Paragraph>
+        Para optimizar costos operativos y maximizar la libertad de diseño,
+        implementaremos una arquitectura Headless (Desacoplada):
+      </Paragraph>
+
+      <BulletText>
+        El Motor Operativo (Shopify): Utilizaremos Shopify como plataforma de
+        backend invisible. Este ecosistema maduro se encargará de la lógica
+        transaccional, la seguridad bancaria (pasarelas de pago) y la gestión
+        centralizada de inventarios, operando bajo un entorno de desarrollo sin
+        costos de mensualidad para la marca hasta el momento del lanzamiento
+        oficial.
+      </BulletText>
+
+      <BulletText>
+        La Interfaz a Medida (Frontend): Desarrollaremos la cara pública del
+        Marketplace mediante código moderno (independiente de las plantillas de
+        Shopify). Esto nos permite construir una experiencia visual fluida y
+        altamente narrativa, unificando la presencia de marca (Landing Page) y
+        la tienda en un solo entorno digital.
+      </BulletText>
+    </Section>
+
+    <Section>
+      <Title size="xs" textAlign="left">
+        Fase Inicial: Prototipado y Validación Visual
+      </Title>
+
+      <Paragraph>
+        Antes de codificar la plataforma completa, el proyecto iniciará con el
+        diseño estructural y visual de la interfaz. Dado que la Landing Page
+        funcionará de manera unificada como el núcleo del Marketplace, esta
+        etapa entregará:
+      </Paragraph>
+
+      <BulletText>
+        Diseño visual de la página principal orientada a la narrativa de la
+        marca.
+      </BulletText>
+
+      <BulletText>
+        Prototipado de alta fidelidad (navegable) de dos (2) fichas de productos
+        de ejemplo, diseñadas para validar la experiencia inmersiva y el
+        storytelling.
+      </BulletText>
+
+      <BulletText>
+        Este entregable permitirá alinear las expectativas estéticas y aprobar
+        el modelo de presentación antes de comprometer recursos en la
+        programación y conexión de bases de datos.
+      </BulletText>
+    </Section>
+
+    <Section wrap="1">
+      <Title size="xs" textAlign="left">
+        Alcance del Producto Mínimo Viable (MVP)
+      </Title>
+
+      <Paragraph>
+        Una vez aprobado el diseño, el MVP se centrará estrictamente en
+        habilitar la operación comercial esencial de manera ágil:
+      </Paragraph>
+
+      <BulletText>
+        Desarrollo del Frontend Unificado: Programación a medida de la interfaz
+        principal y las páginas de producto, asegurando el rendimiento visual y
+        una navegación fluida.
+      </BulletText>
+
+      <BulletText>
+        Diseño Responsivo (Mobile-First): Adaptación estructural de todo el
+        ecosistema (Landing Page y Marketplace) para garantizar una experiencia
+        de usuario amigable, priorizando la visualización y usabilidad en
+        dispositivos móviles.
+      </BulletText>
+
+      <BulletText>
+        Flujo de Venta Seguro: Integración del carrito de compras y el módulo de
+        pago (Checkout) conectado al motor de Shopify para procesar
+        transacciones.
+      </BulletText>
+
+      <BulletText>
+        Gestión de Inventario (Regla de Stock): Configuración automática para
+        ocultar de la interfaz pública cualquier producto cuyo inventario llegue
+        a cero, evitando discrepancias operativas o ventas sin respaldo.
+      </BulletText>
+
+      <BulletText>
+        Administración Centralizada: En esta fase inicial, la carga de productos
+        y el control de inventario de los proveedores será operado
+        centralizadamente desde el panel de administrador principal para
+        garantizar un lanzamiento rápido.
+      </BulletText>
+    </Section>
+
+    <Section>
+      <Title size="xs" textAlign="left"> Estructura de Ejecución </Title>
+
+      <Table>
+        <Header>
+          <Row>
+            <Cell>Fase del Proyecto</Cell>
+            <Cell>Descripción del Entregable</Cell>
+          </Row>
+        </Header>
+        <Body>
+          <Row>
+            <Cell>Diseño y Prototipado</Cell>
+            <Cell>
+              Conceptualización visual unificada (Landing/Marketplace), 2
+              productos de ejemplo y adaptación responsiva inicial.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell>Arquitectura y Frontend</Cell>
+            <Cell>
+              Desarrollo de la interfaz a medida (Código) e integración de
+              flujos de navegación multiplataforma.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell>Backend y Transacciones</Cell>
+            <Cell>
+              Parametrización de Shopify (Pagos, carrito y reglas de inventario
+              de stock cero).
+            </Cell>
+          </Row>
+        </Body>
+      </Table>
+    </Section>
+
+    <SignSection hiddenTitle="1" marginTop="0" paddingTop="0">
+      <SignRow>
+        <SignMeLeft scale="0.7" />
+        <SignMeRight />
+      </SignRow>
+    </SignSection>
+  </Paginate>
+</Document>
