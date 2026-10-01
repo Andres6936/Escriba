@@ -126,6 +126,14 @@
         centralizadamente desde el panel de administrador principal para
         garantizar un lanzamiento rápido.
       </BulletText>
+
+      <BulletText>
+        Gestión Comercial Manual: Postergación de la integración de Shopify y
+        pasarelas de pago. Cualquier venta temprana se canalizará de forma
+        directa (ej. enlace a WhatsApp), gestionando el cobro mediante
+        transferencias manuales, eliminando fricciones técnicas y comisiones
+        hasta confirmar el volumen de demanda.
+      </BulletText>
     </Section>
 
     <Section>
@@ -172,10 +180,10 @@
       </Title>
 
       <Paragraph>
-        Comprendiendo la importancia de mitigar el riesgo financiero,
-        presentamos una ruta alternativa enfocada en medir el interés real del
-        mercado antes de comprometer capital en el desarrollo de la
-        infraestructura transaccional completa.
+        Comprendiendo la importancia de mitigar el riesgo financiero, presento
+        una ruta alternativa enfocada en medir el interés real del mercado antes
+        de comprometer capital en el desarrollo de la infraestructura
+        transaccional completa.
       </Paragraph>
 
       <BulletText>
@@ -187,17 +195,9 @@
 
       <BulletText>
         Captación de Leads (Lista de Espera): Sustitución del flujo de compra
-        por un formulario estratégico para capturar datos clave (nombre y
-        teléfono). Esto permite crear una base de datos de clientes potenciales
-        para contactar el día del lanzamiento.
-      </BulletText>
-
-      <BulletText>
-        Gestión Comercial Manual: Postergación de la integración de Shopify y
-        pasarelas de pago. Cualquier venta temprana se canalizará de forma
-        directa (ej. enlace a WhatsApp), gestionando el cobro mediante
-        transferencias manuales, eliminando fricciones técnicas y comisiones
-        hasta confirmar el volumen de demanda.
+        por un formulario estratégico para capturar datos clave (nombres,
+        teléfono y/o correo electrónico). Esto permite crear una base de datos
+        de clientes potenciales para contactar el día del lanzamiento.
       </BulletText>
     </Section>
 
@@ -232,6 +232,12 @@
             </Cell>
           </Row>
         </Body>
+        <Footer>
+          <Row>
+            <Cell>Presupuesto Total</Cell>
+            <Cell textAlign="right">1'445.522 COP</Cell>
+          </Row>
+        </Footer>
       </Table>
     </Section>
 
