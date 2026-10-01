@@ -129,7 +129,9 @@
     </Section>
 
     <Section>
-      <Title size="xs" textAlign="left"> Estructura de Ejecución </Title>
+      <Title size="xs" textAlign="left">
+        Estructura de Ejecución (Ruta MVP)
+      </Title>
 
       <Table>
         <Header>
@@ -158,6 +160,75 @@
             <Cell>
               Parametrización de Shopify (Pagos, carrito y reglas de inventario
               de stock cero).
+            </Cell>
+          </Row>
+        </Body>
+      </Table>
+    </Section>
+
+    <Section>
+      <Title size="xs" textAlign="left">
+        Propuesta Alternativa: Validación de Mercado (Fase Cero)
+      </Title>
+
+      <Paragraph>
+        Comprendiendo la importancia de mitigar el riesgo financiero,
+        presentamos una ruta alternativa enfocada en medir el interés real del
+        mercado antes de comprometer capital en el desarrollo de la
+        infraestructura transaccional completa.
+      </Paragraph>
+
+      <BulletText>
+        Landing Page de Expectativa: Construcción de la interfaz visual con la
+        misma calidad narrativa y de diseño del Marketplace, pero enfocada
+        exclusivamente en presentar el concepto y generar deseo en el
+        consumidor.
+      </BulletText>
+
+      <BulletText>
+        Captación de Leads (Lista de Espera): Sustitución del flujo de compra
+        por un formulario estratégico para capturar datos clave (nombre y
+        teléfono). Esto permite crear una base de datos de clientes potenciales
+        para contactar el día del lanzamiento.
+      </BulletText>
+
+      <BulletText>
+        Gestión Comercial Manual: Postergación de la integración de Shopify y
+        pasarelas de pago. Cualquier venta temprana se canalizará de forma
+        directa (ej. enlace a WhatsApp), gestionando el cobro mediante
+        transferencias manuales, eliminando fricciones técnicas y comisiones
+        hasta confirmar el volumen de demanda.
+      </BulletText>
+    </Section>
+
+    <Section>
+      <Title size="xs" textAlign="left">
+        Estructura de Ejecución (Ruta Validación)
+      </Title>
+
+      <Table>
+        <Header>
+          <Row>
+            <Cell>Fase del Proyecto</Cell>
+            <Cell>Descripción del Entregable</Cell>
+          </Row>
+        </Header>
+        <Body>
+          <Row>
+            <Cell>Diseño y Prototipado</Cell>
+            <Cell>
+              Conceptualización visual de la Landing Page de expectativa.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell>Desarrollo Frontend</Cell>
+            <Cell> Programación de la Landing Page responsiva. </Cell>
+          </Row>
+          <Row>
+            <Cell>Captación y Flujo Manual</Cell>
+            <Cell>
+              Integración del formulario de lista de espera y redirección a
+              canales de venta manual (WhatsApp).
             </Cell>
           </Row>
         </Body>
