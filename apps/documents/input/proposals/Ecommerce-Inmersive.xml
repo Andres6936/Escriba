@@ -109,9 +109,9 @@
       </BulletText>
 
       <BulletText>
-        Flujo de Venta Seguro: Integración del carrito de compras y el módulo de
-        pago (Checkout) conectado al motor de Shopify para procesar
-        transacciones.
+        Flujo de Ordenes o Transacciones: Integración del carrito de compras y
+        el módulo de ordenes conectado al motor de Shopify para procesar las
+        ordenes y/o transacciones.
       </BulletText>
 
       <BulletText>
@@ -123,8 +123,8 @@
       <BulletText>
         Administración Centralizada: En esta fase inicial, la carga de productos
         y el control de inventario de los proveedores será operado
-        centralizadamente desde el panel de administrador principal para
-        garantizar un lanzamiento rápido.
+        centralizadamente desde el panel de administrador principal (Shopify UI)
+        para garantizar un lanzamiento rápido.
       </BulletText>
 
       <BulletText>
@@ -166,11 +166,17 @@
           <Row>
             <Cell>Backend y Transacciones</Cell>
             <Cell>
-              Parametrización de Shopify (Pagos, carrito y reglas de inventario
+              Parametrización de Shopify (Ordenes, carrito y reglas de inventario
               de stock cero).
             </Cell>
           </Row>
         </Body>
+        <Footer>
+          <Row>
+            <Cell>Presupuesto Total</Cell>
+            <Cell textAlign="right">4'451.790 COP</Cell>
+          </Row>
+        </Footer>
       </Table>
     </Section>
 
