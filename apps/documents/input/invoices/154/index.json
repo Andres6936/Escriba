@@ -1,0 +1,28 @@
+{
+  "Date": "2026-10-02",
+  "AccountNumber": 154,
+  "Value": 1394107,
+  "Currency": "COP",
+  "Parameters": [
+    {
+      "Key": "DebtorName",
+      "Type": "String",
+      "Value": "Residuos Ambientales SAS"
+    },
+    {
+      "Key": "DebtorTypeId",
+      "Type": "String",
+      "Value": "NIT"
+    },
+    {
+      "Key": "DebtorId",
+      "Type": "String",
+      "Value": "901.747.145-4"
+    },
+    {
+      "Key": "Concept",
+      "Type": "String",
+      "Value": "- Hito 1 Anticipo Habilitante"
+    }
+  ]
+}
