@@ -61,6 +61,7 @@ const handle =
 const server = Bun.serve({
   port: process.env.SERVER_PORT,
   routes: {
+    "/llms.txt": new Response(Bun.file("llms.txt")),
     "/api/status": new Response("OK"),
     "/api/documents": {
       POST: handle(async (req) => {
