@@ -1,0 +1,194 @@
+<Document
+  subject="Acta de Reunión"
+  title="Acta Consolidada de Seguimiento"
+  author="Joan Andrés Buriticá Salazar"
+  keywords="Acta, Reunión, Consolidado, Capacitación, Seguimiento, Cierre"
+  creator="Joan Andrés Buriticá Salazar"
+  producer="React PDF with Bun"
+  language="es"
+>
+  <Cover
+    type="Acta de Reunión"
+    title="Acta Consolidada de Seguimiento y Cierre"
+    month="Octubre 2026"
+    scaleTitle="0.85"
+  />
+
+  <Paginate paddingHorizontal="1.9cm">
+    <IndicatorHeader value="Ing. Joan A. Buriticá" />
+
+    <Section marginTop="0" gap="0.1cm">
+      <Text>
+        <Text bold="true">Fecha de Elaboración:<S /></Text>
+        30 de octubre de 2026
+      </Text>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left"
+        >Acta de Reunión Consolidada - Seguimiento y Cierre</Title
+      >
+      <Paragraph>
+        El presente documento consolida la trazabilidad y los asuntos tratados
+        en las sesiones técnicas y operativas sostenidas entre JOAN ANDRÉS
+        BURITICÁ SALAZAR (EL CONTRATISTA) y el equipo de RESIDUOS AMBIENTALES
+        S.A.S. - REAM (EL CONTRATANTE) durante el mes de octubre de 2026,
+        posteriores a la suscripción del Otrosí No. 4.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        Sesión 1: 15 de Octubre de 2026 - Validación Otrosí No. 4
+      </Title>
+
+      <Indent scaleOffset="0.5" gap="0.4cm">
+        <Section marginTop="0" marginBottom="0.5cm" gap="0.3cm">
+          <Title size="xs" textAlign="left"> Asistentes: </Title>
+
+          <BulletText>Joan Andrés Buriticá (El Proveedor)</BulletText>
+          <BulletText>Liz Alexandra, Responsable REAM</BulletText>
+          <BulletText>Ricardo Suarez, Responsable REAM</BulletText>
+        </Section>
+
+        <Title size="xs" textAlign="left">Objetivo</Title>
+
+        <Text marginBottom="0.3cm">
+          Revisión, entrega y validación técnica de los desarrollos
+          correspondientes al flujo de cartera y cambios de estado.
+        </Text>
+
+        <Title size="xs" textAlign="left">Actividades Realizadas</Title>
+
+        <Text>
+          Se efectuó la presentación funcional de las Secciones 1, 2 y 3 del
+          Otrosí No. 4, revisando de manera detallada y punto por punto el
+          siguiente alcance:
+        </Text>
+
+        <Indent gap="7pt">
+          <BulletText
+            >Generación de facturación normal (Día 01) y comunicaciones de
+            vencimiento (Día 11).</BulletText
+          >
+          <BulletText
+            >Envío de recordatorios y avisos preventivos (Días 20 y
+            28).</BulletText
+          >
+          <BulletText
+            >Cambio de estado a "En mora" (Día 01 del mes siguiente) con
+            restricción operativa de recolección.</BulletText
+          >
+          <BulletText
+            >Cambio automático a "Suspensión" (Día 11 del segundo mes) con
+            bloqueo total de servicios.</BulletText
+          >
+          <BulletText
+            >Reactivación automática del servicio tras el pago de la factura que
+            originó la suspensión.</BulletText
+          >
+          <BulletText
+            >Regla estricta de "Retiro temporal" tras la acumulación de plazos,
+            exigiendo el pago total de dos (2) facturas para la
+            reactivación.</BulletText
+          >
+        </Indent>
+
+        <Title size="xs" textAlign="left">Conclusión</Title>
+
+        <Text>
+          El alcance técnico fue presentado y verificado frente a los criterios
+          de aceptación del documento contractual, habilitando las posteriores
+          fases de QA y apropiación por parte de REAM.
+        </Text>
+      </Indent>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        Sesión 2: 22 de Octubre de 2026 - Parámetros de Capacitación
+      </Title>
+
+      <Indent scaleOffset="0.5" gap="0.4cm">
+        <Section marginTop="0" marginBottom="0.5cm" gap="0.3cm">
+          <Title size="xs" textAlign="left"> Asistentes: </Title>
+
+          <BulletText>Joan Andrés Buriticá (El Proveedor)</BulletText>
+          <BulletText>Liz Alexandra, Responsable REAM</BulletText>
+          <BulletText>Ricardo Suarez, Responsable REAM</BulletText>
+        </Section>
+
+        <Title size="xs" textAlign="left">Objetivo</Title>
+
+        <Text>
+          Definición de la logística y requerimientos técnicos para la sesión de
+          capacitación interna dirigida por REAM a su personal.
+        </Text>
+
+        <Title size="xs" textAlign="left">Actividades Realizadas</Title>
+
+        <Text>
+          Se establecieron los parámetros necesarios para ejecutar simulaciones
+          de tiempo dentro de la plataforma. Se coordinó el esquema de
+          asistencia técnica requerida para que EL CONTRATISTA ejecutara
+          manualmente las tareas programadas (Cron Jobs) durante la simulación
+          operativa.
+        </Text>
+      </Indent>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        Sesión 3: 23 de Octubre de 2026 - Acompañamiento Técnico en Simulación
+      </Title>
+
+      <Indent scaleOffset="0.5" gap="0.4cm">
+        <Section marginTop="0" marginBottom="0.5cm" gap="0.3cm">
+          <Title size="xs" textAlign="left"> Asistentes: </Title>
+
+          <BulletText>Joan Andrés Buriticá (El Proveedor)</BulletText>
+          <BulletText>Liz Alexandra, Responsable REAM</BulletText>
+          <BulletText>Ricardo Suarez, Responsable REAM</BulletText>
+          <BulletText>Equipo de REAM</BulletText>
+        </Section>
+
+        <Title size="xs" textAlign="left">Objetivo</Title>
+
+        <Text>
+          Soporte técnico de back-end durante la jornada de capacitación de los
+          operarios y equipo administrativo de REAM.
+        </Text>
+
+        <Title size="xs" textAlign="left">Actividades Realizadas</Title>
+
+        <Text>
+          EL CONTRATISTA participó en calidad de observador y soporte técnico.
+          Durante la sesión de capacitación impartida por REAM, se ejecutaron
+          exitosamente los Cron Jobs previamente coordinados, lo cual facilitó
+          al equipo visualizar los saltos temporales (simulación de avance de
+          ciclos de facturación) y comprobar la correcta aplicación automatizada
+          de las reglas de negocio sobre los clientes y servicios.
+        </Text>
+      </Indent>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left"> Conclusión y Cierre Documental </Title>
+      <Paragraph>
+        Con la emisión de la presente acta consolidada, se deja registro formal
+        de las sesiones de trabajo ejecutadas durante el periodo de entrega,
+        validación y apropiación técnica del alcance, dando estricto
+        cumplimiento a las obligaciones de trazabilidad administrativa y
+        seguimiento del proyecto, y habilitando el cierre definitivo de esta
+        etapa funcional.
+      </Paragraph>
+    </Section>
+
+    <SignSection hiddenTitle="false">
+      <SignRow>
+        <SignPadLeft signBy="Yomaira Beytar Florez, Representante REAM" />
+        <SignMeRight />
+      </SignRow>
+    </SignSection>
+  </Paginate>
+</Document>
