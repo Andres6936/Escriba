@@ -67,7 +67,7 @@
           siguiente alcance:
         </Text>
 
-        <Indent gap="7pt">
+        <Indent scaleOffset="0.5" gap="7pt" marginBottom="0.5cm">
           <BulletText
             >Generación de facturación normal (Día 01) y comunicaciones de
             vencimiento (Día 11).</BulletText
@@ -92,6 +92,35 @@
             >Regla estricta de "Retiro temporal" tras la acumulación de plazos,
             exigiendo el pago total de dos (2) facturas para la
             reactivación.</BulletText
+          >
+        </Indent>
+
+        <Title size="xs" textAlign="left"
+          >Acuerdos de Pruebas y Simulación (QA)</Title
+        >
+
+        <Text>
+          Como parte de la validación integral del alcance, se establecieron y
+          ejecutaron las siguientes acciones posteriores a la demostración:
+        </Text>
+
+        <Indent scaleOffset="0.5" gap="7pt" marginBottom="0.5cm">
+          <BulletText
+            >Se habilitó un entorno de pruebas con quince (15) registros
+            preconfigurados para que el equipo de REAM replicara de forma
+            autónoma los flujos operativos demostrados.</BulletText
+          >
+          <BulletText
+            >Se estableció un canal de soporte asíncrono donde REAM solicitó el
+            avance de los ciclos de facturación. El Proveedor ejecutó
+            exitosamente y a demanda los procesos automatizados (Cron Jobs),
+            permitiendo a REAM comprobar los cambios de estado.</BulletText
+          >
+          <BulletText
+            >Tras culminar este ciclo de revisión, se acordó restablecer la base
+            de datos de estos 15 registros a su estado inicial para ser
+            utilizados en la capacitación interna del equipo de REAM, dando paso
+            a las sesiones del 22 y 23 de octubre.</BulletText
           >
         </Indent>
 
@@ -130,7 +159,8 @@
 
         <Text>
           Se establecieron los parámetros necesarios para ejecutar simulaciones
-          de tiempo dentro de la plataforma. Se coordinó el esquema de
+          de tiempo dentro de la plataforma, utilizando los quince (15)
+          registros de prueba restablecidos. Se coordinó el esquema de
           asistencia técnica requerida para que EL CONTRATISTA ejecutara
           manualmente las tareas programadas (Cron Jobs) durante la simulación
           operativa.
