@@ -54,13 +54,14 @@ const Section = ({
 
 type IndentProps = React.ComponentPropsWithRef<typeof View> & {
   level?: number | undefined;
+  scaleOffset?: number | undefined;
 };
 
 const Indent = ({ style, ...props }: IndentProps & StylesNode) => (
   <View
     {...props}
     style={mergeStyles(
-      { marginLeft: `${props.level || 1}cm` },
+      { marginLeft: `${(props.level || 1) * (props.scaleOffset || 1)}cm` },
       { ...style, ...props },
     )}
   />
