@@ -237,9 +237,14 @@
       </Paragraph>
     </Section>
 
-    <SignSection hiddenTitle="false">
-      <SignRow>
-        <SignPadLeft signBy="Yomaira Beytar Florez, Representante REAM" />
+    <SignSection hiddenTitle="true">
+      <SignRow gap="25pt" height="120pt">
+        <SignPad />
+        <SignPadRight signBy="Firma Liz Alexandra, Representante REAM" />
+      </SignRow>
+
+      <SignRow gap="25pt" height="120pt">
+        <SignPadLeft signBy="Firma Ricardo Suarez, Representante REAM" />
         <SignMeRight />
       </SignRow>
     </SignSection>
