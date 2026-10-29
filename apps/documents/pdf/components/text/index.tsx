@@ -110,12 +110,9 @@ const Title = (
           fontFamily: "Merriweather",
           fontWeight: "bold",
           textAlign: props.textAlign || "center",
-          transform: "scaleY(1.4), scaleX(0.95)",
+          transform: "scaleY(1.4)",
           fontSize: getSize(props.size),
           marginBottom: "0.4cm",
-          // For some strange reason, using the "transform" property
-          //  add a margin to the component, causing it to appear misaligned
-          marginLeft: "-" + getSize(props.size),
           color: "#14192f",
         },
         props.style,
