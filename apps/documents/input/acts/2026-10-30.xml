@@ -44,7 +44,7 @@
       </Title>
 
       <Indent scaleOffset="0.5" gap="0.4cm">
-        <Section marginTop="0" marginBottom="0.5cm" gap="0.3cm">
+        <Section marginTop="0" marginBottom="0.5cm" gap="0.1cm">
           <Title size="xs" textAlign="left"> Asistentes: </Title>
 
           <BulletText>Joan Andrés Buriticá (El Proveedor)</BulletText>
@@ -63,8 +63,8 @@
 
         <Text>
           Se efectuó la presentación funcional de las Secciones 1, 2 y 3 del
-          Otrosí No. 4, revisando de manera detallada y punto por punto el
-          siguiente alcance:
+          Control de Cambios No. 1 anexó al Otrosí No. 4, revisando de manera
+          detallada y punto por punto el siguiente alcance:
         </Text>
 
         <Indent scaleOffset="0.5" gap="7pt" marginBottom="0.5cm">
@@ -140,7 +140,7 @@
       </Title>
 
       <Indent scaleOffset="0.5" gap="0.4cm">
-        <Section marginTop="0" marginBottom="0.5cm" gap="0.3cm">
+        <Section marginTop="0" marginBottom="0.5cm" gap="0.1cm">
           <Title size="xs" textAlign="left"> Asistentes: </Title>
 
           <BulletText>Joan Andrés Buriticá (El Proveedor)</BulletText>
@@ -174,7 +174,7 @@
       </Title>
 
       <Indent scaleOffset="0.5" gap="0.4cm">
-        <Section marginTop="0" marginBottom="0.5cm" gap="0.3cm">
+        <Section marginTop="0" marginBottom="0.5cm" gap="0.1cm">
           <Title size="xs" textAlign="left"> Asistentes: </Title>
 
           <BulletText>Joan Andrés Buriticá (El Proveedor)</BulletText>
