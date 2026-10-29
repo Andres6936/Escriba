@@ -252,16 +252,35 @@ Children: `Title`, `Paragraph`, `Text`, `BulletText`, `Indent`, `Table`,
 A container with a left margin. Accepts any block children (usually
 `Paragraph` or `Bold`).
 
+The left margin is computed as **`level × scaleOffset` centimeters**:
+
+| `level` | `scaleOffset` | Resulting `marginLeft` |
+| --- | --- | --- |
+| `1` (default) | `1` (default) | `1cm` |
+| `2` | `1` (default) | `2cm` |
+| `3` | `1` (default) | `3cm` |
+| `2` | `0.5` | `1cm` |
+| `1` | `2` | `2cm` |
+
 | Attribute | Type | Default | Description |
 | --- | --- | --- | --- |
-| `level` | number | `1` | Left margin in centimeters. |
-| any style | style | — | Additional style attributes. |
+| `level` | number | `1` | Indentation step. Each step adds `scaleOffset` cm: `1` → `1cm`, `2` → `2cm`, and so on. |
+| `scaleOffset` | number | `1` | Multiplier that controls how much the margin grows per level. `0.5` halves the growth, `2` doubles it. |
+| any style | style | — | Additional style attributes. An explicit `marginLeft` overrides the computed margin. |
 
 ```xml
 <Indent>
   <Paragraph>
     <Text bold="true">Eficiencia Operativa</Text>: descripción del eje.
   </Paragraph>
+</Indent>
+
+<Indent level="2">
+  <Paragraph>Dos niveles: 2cm.</Paragraph>
+</Indent>
+
+<Indent level="3" scaleOffset="0.5">
+  <Paragraph>Tres niveles con escala 0.5: 1.5cm.</Paragraph>
 </Indent>
 ```
 
