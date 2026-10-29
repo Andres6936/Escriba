@@ -31,10 +31,10 @@
       <Paragraph>
         El presente documento consolida la trazabilidad y los asuntos tratados
         en las sesiones técnicas y operativas sostenidas entre JOAN A. BURITICÁ
-        (EL CONTRATISTA referenciado de ahora en adelante como El Proveedor) y
-        el equipo de RESIDUOS AMBIENTALES S.A.S. - REAM (EL CONTRATANTE) durante
-        el mes de octubre de 2026, posteriores a la suscripción del Otrosí No.
-        4.
+        (EL CONTRATISTA referenciado de ahora en adelante como El Proveedor o El
+        Contratista) y el equipo de RESIDUOS AMBIENTALES S.A.S. - REAM (EL
+        CONTRATANTE) durante el mes de octubre de 2026, posteriores a la
+        suscripción del Otrosí No. 4.
       </Paragraph>
     </Section>
 
@@ -123,14 +123,6 @@
             a las sesiones del 22 y 23 de octubre.</BulletText
           >
         </Indent>
-
-        <Title size="xs" textAlign="left">Conclusión</Title>
-
-        <Text>
-          El alcance técnico fue presentado y verificado frente a los criterios
-          de aceptación del documento contractual, habilitando las posteriores
-          fases de QA y apropiación por parte de REAM.
-        </Text>
       </Indent>
     </Section>
 
@@ -148,29 +140,34 @@
           <BulletText>Ricardo Suarez, Responsable REAM</BulletText>
         </Section>
 
-        <Title size="xs" textAlign="left">Objetivo</Title>
+        <Title size="xs" textAlign="left"
+          >Objetivo y Confirmación de Pruebas</Title
+        >
 
         <Text>
-          Definición de la logística y requerimientos técnicos para la sesión de
-          capacitación interna dirigida por REAM a su personal.
+          Durante esta sesión, EL CONTRATANTE confirmó la realización exitosa de
+          sus pruebas operativas sobre los quince (15) registros de muestra y
+          otorgó su <Text bold="true">visto bueno</Text> funcional. Asimismo, se
+          realizó la entrega de los cambios menores identificados en la sesión
+          del 15 de octubre.
         </Text>
 
-        <Title size="xs" textAlign="left">Actividades Realizadas</Title>
+        <Title size="xs" textAlign="left">Logística de Capacitación</Title>
 
         <Text>
           Se establecieron los parámetros necesarios para ejecutar simulaciones
-          de tiempo dentro de la plataforma, utilizando los quince (15)
-          registros de prueba restablecidos. Se coordinó el esquema de
-          asistencia técnica requerida para que EL CONTRATISTA ejecutara
-          manualmente las tareas programadas (Cron Jobs) durante la simulación
-          operativa.
+          de tiempo dentro de la plataforma, utilizando los registros de prueba
+          restablecidos. Se coordinó el esquema de asistencia técnica para que
+          El Contratista ejecutara manualmente las tareas programadas (Cron
+          Jobs) durante la jornada operativa del día siguiente.
         </Text>
       </Indent>
     </Section>
 
     <Section wrap="true">
       <Title size="xs" textAlign="left">
-        Sesión 3: 23 de Octubre de 2026 - Acompañamiento Técnico en Simulación
+        Sesión 3: 23 de Octubre de 2026 - Acompañamiento en Capacitación y
+        Ajustes Finales
       </Title>
 
       <Indent scaleOffset="0.5" gap="0.4cm">
@@ -180,26 +177,51 @@
           <BulletText>Joan Andrés Buriticá (El Proveedor)</BulletText>
           <BulletText>Liz Alexandra, Responsable REAM</BulletText>
           <BulletText>Ricardo Suarez, Responsable REAM</BulletText>
-          <BulletText>Equipo de REAM</BulletText>
+          <BulletText>Equipo Operativo de REAM</BulletText>
         </Section>
 
-        <Title size="xs" textAlign="left">Objetivo</Title>
+        <Title size="xs" textAlign="left">Desarrollo de la Capacitación</Title>
 
         <Text>
-          Soporte técnico de back-end durante la jornada de capacitación de los
-          operarios y equipo administrativo de REAM.
+          La sesión transcurrió con total normalidad y sin interrupciones. El
+          Contratista participó en calidad de observador y soporte técnico,
+          ejecutando exitosamente los Cron Jobs previamente coordinados para
+          permitir al equipo visualizar los saltos temporales y las reglas de
+          negocio de facturación automatizada.
         </Text>
 
-        <Title size="xs" textAlign="left">Actividades Realizadas</Title>
+        <Title size="xs" textAlign="left">Ajustes Menores</Title>
 
         <Text>
-          EL CONTRATISTA participó en calidad de observador y soporte técnico.
-          Durante la sesión de capacitación impartida por REAM, se ejecutaron
-          exitosamente los Cron Jobs previamente coordinados, lo cual facilitó
-          al equipo visualizar los saltos temporales (simulación de avance de
-          ciclos de facturación) y comprobar la correcta aplicación automatizada
-          de las reglas de negocio sobre los clientes y servicios.
+          Se identificaron incidentes menores de visualización y asignación que
+          no afectaron la realización de la capacitación. Estos ajustes fueron
+          iterados durante los días siguientes y su corrección definitiva fue
+          confirmada y notificada el
+          <Text bold="true">martes 27 de octubre de 2026</Text>, incluyendo:
         </Text>
+
+        <Indent gap="7pt">
+          <BulletText
+            >Habilitación para la asignación de varios operarios (conductores) a
+            un mismo camión en la misma semana.</BulletText
+          >
+          <BulletText
+            >Inclusión de etiquetas (Badges) visuales para el estado
+            "Suspensión".</BulletText
+          >
+          <BulletText
+            >Ajuste de las gráficas de cartera para visualizar el nuevo estado
+            "Suspensión".</BulletText
+          >
+          <BulletText
+            >Actualización de la plantilla del contrato de generadores dentro de
+            la plataforma.</BulletText
+          >
+          <BulletText
+            >Inclusión de tipos de empaque en la selección para el
+            diligenciamiento del manifiesto.</BulletText
+          >
+        </Indent>
       </Indent>
     </Section>
 
@@ -207,11 +229,11 @@
       <Title size="xs" textAlign="left"> Conclusión y Cierre Documental </Title>
       <Paragraph>
         Con la emisión de la presente acta consolidada, se deja registro formal
-        de las sesiones de trabajo ejecutadas durante el periodo de entrega,
-        validación y apropiación técnica del alcance, dando estricto
-        cumplimiento a las obligaciones de trazabilidad administrativa y
-        seguimiento del proyecto, y habilitando el cierre definitivo de esta
-        etapa funcional.
+        de las sesiones de trabajo ejecutadas, el visto bueno de las pruebas, y
+        la confirmación final de entrega de ajustes con fecha 27 de octubre de
+        2026. Lo anterior da estricto cumplimiento a las obligaciones de
+        trazabilidad administrativa y seguimiento del proyecto, habilitando el
+        cierre definitivo de esta etapa funcional.
       </Paragraph>
     </Section>
 
