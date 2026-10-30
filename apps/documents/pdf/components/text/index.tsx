@@ -112,7 +112,7 @@ const Title = (
           textAlign: props.textAlign || "center",
           transform: "scaleY(1.4)",
           fontSize: getSize(props.size),
-          marginBottom: "0.4cm",
+          marginVertical: "0.4cm",
           color: "#14192f",
         },
         props.style,
