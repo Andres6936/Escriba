@@ -1,0 +1,28 @@
+{
+  "Date": "2026-10-30",
+  "AccountNumber": 156,
+  "Value": 1760725,
+  "Currency": "COP",
+  "Parameters": [
+    {
+      "Key": "DebtorName",
+      "Type": "String",
+      "Value": "Residuos Ambientales SAS"
+    },
+    {
+      "Key": "DebtorTypeId",
+      "Type": "String",
+      "Value": "NIT"
+    },
+    {
+      "Key": "DebtorId",
+      "Type": "String",
+      "Value": "901.747.145-4"
+    },
+    {
+      "Key": "Concept",
+      "Type": "String",
+      "Value": "- Hito 2 Liquidación Final"
+    }
+  ]
+}
