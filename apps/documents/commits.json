@@ -1,0 +1,647 @@
+{
+  "signAt": "",
+  "from": "2026-08-12T00:00:00-05:00",
+  "to": "2026-10-30T00:00:00-05:00",
+  "commits": [
+    {
+      "hash": "3e95c1635faeb85194606f810f734f3ef3034892",
+      "date": "2026-08-14T15:46:31-05:00",
+      "message": "Added message to in default notification"
+    },
+    {
+      "hash": "a0183709ead9dec3f2569d1af4d00d62c72d038b",
+      "date": "2026-08-14T16:05:50-05:00",
+      "message": "Refactor: Enhance invoice creation flow with code consistency improvements, error handling updates, and added fiscal responsibilities for customer data"
+    },
+    {
+      "hash": "defc8f3e6af730a78a43d0dbb3a7e1d9adfefdf4",
+      "date": "2026-08-14T16:12:42-05:00",
+      "message": "Refactor: Add TODO comments for email recipient updates in invoice and manifest email services to improve future configurability"
+    },
+    {
+      "hash": "d75e0db63fb3052f30b6b5b350ab65fd233c5103",
+      "date": "2026-08-20T10:21:06-05:00",
+      "message": "Refactor: Update client email templates with enhanced messaging, improved phrasing, and additional payment details"
+    },
+    {
+      "hash": "d44105017f605ceb3ed1468227b843040f200d0f",
+      "date": "2026-10-05T15:33:39-05:00",
+      "message": "Refactor: Rename `first-month-execute` to `1th-execute` and update imports for consistency"
+    },
+    {
+      "hash": "a863634a6ce13b1a5609cfb44feb4c0a9965a4ed",
+      "date": "2026-10-06T11:03:07-05:00",
+      "message": "Add 'Suspended' state to `TypeStateServicePayment` and update seed data"
+    },
+    {
+      "hash": "05839a7742746727e4094a33d65ab720d040ec75",
+      "date": "2026-10-06T11:25:25-05:00",
+      "message": "Add `Users.md` with user roles and contact information documentation"
+    },
+    {
+      "hash": "8a518ec6152bea626fa5a543c419de7b99a479ed",
+      "date": "2026-10-06T12:04:17-05:00",
+      "message": "Add `markServiceAsSuspended` action and integrate into invoice due date handling logic"
+    },
+    {
+      "hash": "74d049ca88a4156b17830b47955ae4536c266175",
+      "date": "2026-10-06T12:38:41-05:00",
+      "message": "Add `@ambientales/actions` and `@ambientales/logger` packages with shared utilities for action handling and logging"
+    },
+    {
+      "hash": "8fd2ddce7bdb354164d52913731aba3960da620f",
+      "date": "2026-10-06T12:51:30-05:00",
+      "message": "Refactor: Introduce generic `is` utility and streamline status code checks in action results"
+    },
+    {
+      "hash": "602ccaac879f5e12ee683039c0346ba398f488eb",
+      "date": "2026-10-06T13:37:08-05:00",
+      "message": "Add `@ambientales/database` package with Supabase client and database types"
+    },
+    {
+      "hash": "6a22308207d3d6ae9e8c10345176c2fb7150b40e",
+      "date": "2026-10-06T13:44:02-05:00",
+      "message": "Update README: adjust Supabase types export path and reformat credentials section"
+    },
+    {
+      "hash": "0eeefde3ffc7723d1fcc8c6f6a45c5fd73bbed35",
+      "date": "2026-10-06T17:14:52-05:00",
+      "message": "Add `search-services-with-due-invoice` and `search-early-payment-overdue-invoice` functions; integrate events into `11th-execute` Cron logic"
+    },
+    {
+      "hash": "eb9442013ece2677c0eaa855f1f36006b60c73e4",
+      "date": "2026-10-06T17:15:51-05:00",
+      "message": "Add `search-services-with-due-invoice` and `search-early-payment-overdue-invoice` functions to inngest list"
+    },
+    {
+      "hash": "c772b54feac867e5711ba39b7e8d27bff773f8c6",
+      "date": "2026-10-06T19:21:08-05:00",
+      "message": "Add `isError` utility to streamline status code validation and update exports accordingly"
+    },
+    {
+      "hash": "4ccc1efaba7e7d8377b70843979bef425a835526",
+      "date": "2026-10-06T19:37:41-05:00",
+      "message": "Add `notify-early-payment-overdue` function and integrate related actions/events into Inngest workflow"
+    },
+    {
+      "hash": "cb538337add14dc84dbb7829396f5d065c2b257c",
+      "date": "2026-10-06T19:49:36-05:00",
+      "message": "Add `InvoiceId`, `MonthOf`, and `YearOf` fields to `notify-early-payment-overdue` event; integrate email sending step into workflow"
+    },
+    {
+      "hash": "4d0de390d7919aa253932e7b89b08ee3acf5a32a",
+      "date": "2026-10-07T15:00:04-05:00",
+      "message": "Add overdue invoice reminder emails for 20th and 28th; refactor shared components into `BannerInDefault`"
+    },
+    {
+      "hash": "87dc01792628a47c08a4857c704d5614f7998477",
+      "date": "2026-10-07T15:32:57-05:00",
+      "message": "Add support for multiple invoice email templates (Default, 20th, 28th); refactor error handling to use `Actions.isError`"
+    },
+    {
+      "hash": "36c5ee7e989abacaeac77d83a1d9e8948dc065c8",
+      "date": "2026-10-07T15:38:40-05:00",
+      "message": "Refactor `NotifyTemplateInDefaultKeys` and `NotifyTemplateInDefaultType` into shared types; update `send-email-in-default` logic accordingly"
+    },
+    {
+      "hash": "66209b961bdca2d8cbd23c5440a562f1d8b7efcf",
+      "date": "2026-10-07T15:41:49-05:00",
+      "message": "Add `Template` field to `notify-early-payment-overdue` and `search-early-payment-overdue-invoice` events; integrate with shared types"
+    },
+    {
+      "hash": "a2a5cae3c32f4d364b6bde6c227d559586f90386",
+      "date": "2026-10-07T15:54:37-05:00",
+      "message": "Add `Template` field to `service/mark-if-due-invoice` event; integrate with `NotifyTemplateInDefaultKeys` shared type"
+    },
+    {
+      "hash": "adcfa22ef35ccb7ded65a4e77b4780751d26e419",
+      "date": "2026-10-07T16:04:01-05:00",
+      "message": "Add `20th-execute` and `28th-execute` Cron functions for overdue invoice notifications; update Inngest functions list"
+    },
+    {
+      "hash": "aa1ae5af207a7b8754c9facd9b60e91a136dd973",
+      "date": "2026-10-07T17:01:31-05:00",
+      "message": "Add `@ambientales/cycle` module and `@ambientales/schemas` package; implement `getActiveCycle` function and enhance TypeScript compatibility"
+    },
+    {
+      "hash": "49bc911b741c6be291b430e7f4c1c731ddec8756",
+      "date": "2026-10-07T17:12:19-05:00",
+      "message": "Add `assert` utility and `ActionResultError` class to improve status code validation and error handling"
+    },
+    {
+      "hash": "4effaf61023827b1803e583447d742e3607ed679",
+      "date": "2026-10-07T17:12:53-05:00",
+      "message": "Export `ActionResultError` from `actions` package to improve error handling consistency"
+    },
+    {
+      "hash": "bba51fa20b216514deea6f78f18155c4ae4d8230",
+      "date": "2026-10-07T17:22:08-05:00",
+      "message": "Refactor `move-completed-services` logic to use `getActiveCycle` and improve status code handling with `assert` utility"
+    },
+    {
+      "hash": "f6a717002ccf95436fc9f1429b414f3e186b9892",
+      "date": "2026-10-07T17:26:55-05:00",
+      "message": "Update `move-completed-services` to improve variable naming and cycle assertion; adjust TypeScript peer dependency range in `bun.lock`"
+    },
+    {
+      "hash": "ffab0b543d26c6ed41c4ef2ed3efeca9f29c6c2a",
+      "date": "2026-10-07T17:41:48-05:00",
+      "message": "Add `getPreviousCycle` utility to calculate and return the previous cycle; include placeholder step in `complete-service`"
+    },
+    {
+      "hash": "700abc1eb3ad7e664927e06f46fa1ad4e929a22f",
+      "date": "2026-10-07T17:45:59-05:00",
+      "message": "Refactor cycle utilities to streamline `getActiveCycle` and `getPreviousCycle` logic; update imports and simplify `SearchServicesWithInvoicesInDueDate` and `MoveCompletedServiceOfProcessedCycleToNewActiveCycle` functions"
+    },
+    {
+      "hash": "08ff8fe4fe4e82a64a363e02667337626b60d3f7",
+      "date": "2026-10-07T17:59:12-05:00",
+      "message": "Refactor `SearchServicesWithInvoicesInDueCurrentCycle` to modularize query logic; add `GetPreviousCycleInvoiceIfInDueDate` for retrieving invoices from the previous cycle"
+    },
+    {
+      "hash": "37c2cce2174d567869fd9bd67bea5a54562f1116",
+      "date": "2026-10-07T18:09:26-05:00",
+      "message": "Modularize query logic by extracting `GetQueryServicesAndInvoicesNotApproved`; update `SearchServicesWithInvoicesInDueCurrentCycle` to use new utility"
+    },
+    {
+      "hash": "4a9cb91643da7f71c62cd10fe91bb7c37b6d9e6c",
+      "date": "2026-10-07T18:11:09-05:00",
+      "message": "Extract `GetPreviousCycleInvoiceIfInDueDate` to a standalone module and remove inline definition from `SearchServicesWithInvoicesInDueCurrentCycle`."
+    },
+    {
+      "hash": "ec04ed364bb18dac95d99fabc3814f8577cd9309",
+      "date": "2026-10-07T18:25:43-05:00",
+      "message": "Integrate `GetPreviousCycleInvoiceIfInDueDate` into `complete-service` workflow; mark services as in default for outstanding invoices"
+    },
+    {
+      "hash": "17deba12f3bbc3ce540e4d58aad5de2f36ea1892",
+      "date": "2026-10-08T12:31:49-05:00",
+      "message": "Rename `SearchServicesWithInvoicesInDueDate` to `SearchServicesInDefaultWithInvoicesInDueDate`; refactor logic to filter \"in default\" services and improve error handling consistency."
+    },
+    {
+      "hash": "4d26753a7fada4f18a6610720fc0165d5612d51a",
+      "date": "2026-10-08T12:46:58-05:00",
+      "message": "Refactor `processingInvoiceTypeNature` to rework conditional structure and improve handling of `Service_Collection_With_Manifest` invoice type."
+    },
+    {
+      "hash": "5438d3207c98d8c8a7daf0cc470fec3624dbfbda",
+      "date": "2026-10-08T15:54:54-05:00",
+      "message": "Refactor `updateServiceStatePaymentIfNeeded`: add `getService` utility, integrate state assertion, and enhance handling for current cycle invoices"
+    },
+    {
+      "hash": "40694998a4870e1949ea713f0ff55c37906ffaa5",
+      "date": "2026-10-08T15:56:41-05:00",
+      "message": "Remove `getService` utility from `updateServiceStatePaymentIfNeeded` and simplify logic."
+    },
+    {
+      "hash": "496c5f57ad2af662f7d3aa95c057aa0b9f05b259",
+      "date": "2026-10-08T16:05:13-05:00",
+      "message": "Add `unmarkPendingScheduleAsDue` utility; update `updateServiceStatePaymentIfNeeded` to prevent suspension of pending schedules in next cycle"
+    },
+    {
+      "hash": "96c1fe32bfa10bb4375f3fd2c36b7898887e4122",
+      "date": "2026-10-08T16:15:38-05:00",
+      "message": "Replace `markServiceAsTemporaryRemoval` with `markServiceAsSuspended` in `updateServiceStatePaymentIfNeeded` to reflect updated naming convention and functionality."
+    },
+    {
+      "hash": "acbd664abfba80216935940eaf0897b28f4cbc29",
+      "date": "2026-10-08T16:56:04-05:00",
+      "message": "Add `GetQueryActiveServicesAndInvoicesNotApproved`; update references in actions to use new query for filtering active services with invoices"
+    },
+    {
+      "hash": "9f68ef0e148f1f074a0d87bd4a477b52547ebe11",
+      "date": "2026-10-08T17:02:36-05:00",
+      "message": "Rename `GetQueryServicesAndInvoicesNotApproved` to `GetQueryServicesNotRetiredAndInvoicesNotApproved`; refactor logic to exclude retired services and consolidate query structure."
+    },
+    {
+      "hash": "16a5896817c3abced0561717da8a1649929db1d5",
+      "date": "2026-10-08T17:32:27-05:00",
+      "message": "Add `MarkServicesAsTemporaryRemovalIfDueInvoices` action to group services with unpaid invoices and mark them for temporary removal if invoices are overdue in previous cycles."
+    },
+    {
+      "hash": "9928e2b2c785efed092a142645468e0fb28c0af7",
+      "date": "2026-10-08T18:10:14-05:00",
+      "message": "Add `NotifyClientTemporaryRemoval` email component for notifying clients about service suspension due to unpaid invoices"
+    },
+    {
+      "hash": "13a67fc4b38ac85f2d7ab33d0ef75d15c5acb789",
+      "date": "2026-10-08T18:47:48-05:00",
+      "message": "Refactor `NotifyClientTemporaryRemoval` email: adjust text structure, improve readability, and update styling for better alignment consistency."
+    },
+    {
+      "hash": "d62a6770424af1b1fb8a0ac627b437396de41aa1",
+      "date": "2026-10-08T18:53:05-05:00",
+      "message": "Fix `getMonthNameUpper` to correctly parse string dates using `parseISO` and ensure proper formatting."
+    },
+    {
+      "hash": "2f5bfdfeb9cb3788009e6fc315cbc9aa99318efc",
+      "date": "2026-10-08T19:35:55-05:00",
+      "message": "Rename `markServiceAsTemporaryRemoval` to `markServiceAsTemporaryRemovalIfCompletedState` and update references across components."
+    },
+    {
+      "hash": "7ee3cc11880a0ca7ed1488805cd4405d104d1578",
+      "date": "2026-10-08T19:39:51-05:00",
+      "message": "Add `markServiceAsTemporaryRemoval` action; integrate into overdue invoice handling logic in `MarkServicesAsTemporaryRemovalIfDueInvoices`."
+    },
+    {
+      "hash": "902f675f0dabe34625240221e4a2781b5b343c77",
+      "date": "2026-10-08T19:59:02-05:00",
+      "message": "Add `sendEmailTemporalRemoveService` action; integrate into temporary removal flow to notify clients of service suspension due to unpaid invoices."
+    },
+    {
+      "hash": "5f8b1e39e7b8af85fb858a1e82c858bb4ef00075",
+      "date": "2026-10-09T12:14:55-05:00",
+      "message": "Rename and refactor `movePendingScheduleInDue` to `suspendPendingScheduleBy`; integrate into `MarkServicesAsTemporaryRemovalIfDueInvoices` for targeted schedule suspension."
+    },
+    {
+      "hash": "a3ac372ec3b74025df6f544726a2c6b60de57063",
+      "date": "2026-10-09T13:02:56-05:00",
+      "message": "Rename `searchServiceInvoicesInDueDate` to `searchServiceCollectionsInvoicesNotApproved` and update references across payment state update logic."
+    },
+    {
+      "hash": "edda0e6bf36ecb4e098bc135bc338926f5bf47d6",
+      "date": "2026-10-09T13:17:28-05:00",
+      "message": "Refactor `updateServiceStatePaymentIfNeeded`: modularize state handling logic and introduce checks for temporary service removal handling."
+    },
+    {
+      "hash": "743af2aee3c9129999fc1f7f62aa346c5800be0b",
+      "date": "2026-10-09T13:35:44-05:00",
+      "message": "Refactor `handleIfServiceNotIsTemporaryRemoval`: improve error handling, simplify logic, and enhance variable naming for clarity."
+    },
+    {
+      "hash": "27f1a799b5dd0b0336c953f7e0acc3ac8ce8b6f8",
+      "date": "2026-10-09T13:39:01-05:00",
+      "message": "Add check for unapproved invoices in `handleIfServiceIsTemporaryRemoval` and mark service as update if none found"
+    },
+    {
+      "hash": "a8a8664f43d652ece6c9df899439d21ae72e547c",
+      "date": "2026-10-12T16:34:37-05:00",
+      "message": "Update `get-previous-cycle-invoice-if-in-due-date`: use `maybeSingle` to handle cases where no result is found"
+    },
+    {
+      "hash": "e7daa0db8048ad438b61b68648cc7366a4ca9545",
+      "date": "2026-10-12T16:46:08-05:00",
+      "message": "Update `.env.development`: replace email credentials for logistics and support services"
+    },
+    {
+      "hash": "e3e8f69a6f373fe798aa6ddfb914e77c238daa79",
+      "date": "2026-10-12T18:07:35-05:00",
+      "message": "Update `query-services-and-invoices-not-approved`: use string literals for improved clarity in state payment exclusions"
+    },
+    {
+      "hash": "012095477e73257c84f5f7d05dbf4826b7b77ade",
+      "date": "2026-10-13T11:06:44-05:00",
+      "message": "Update dependencies in `bun.lock`: include version upgrades and remove redundant entries"
+    },
+    {
+      "hash": "d386a0c0ef6c73b18810985a76155b4479831ba7",
+      "date": "2026-10-13T11:11:13-05:00",
+      "message": "\"Update schedule report page: adjust section padding and spacing for improved layout consistency\""
+    },
+    {
+      "hash": "155c4669783224f58c8bfb33c3f644702ada84b0",
+      "date": "2026-10-13T12:11:45-05:00",
+      "message": "Add unit tests for `calculateConsumedBalance` utility: cover balance calculation scenarios"
+    },
+    {
+      "hash": "eb7d07985a7b62df765a9371881b2359bf2d03c4",
+      "date": "2026-10-13T12:17:23-05:00",
+      "message": "Refactor `calculateConsumedBalance`: improve balance consumption logic and ensure accurate new service balance calculation."
+    },
+    {
+      "hash": "51d351483e41f87771fb480710e3f45cefd91ab2",
+      "date": "2026-10-13T12:19:59-05:00",
+      "message": "Refactor `calculateConsumedBalance`: clarify balance consumption logic and update service balance calculation rules."
+    },
+    {
+      "hash": "931dea13ac0a3acbeae5b6fc3dfad48e73ad0266",
+      "date": "2026-10-13T12:27:01-05:00",
+      "message": "Skip \"Actions\" test suite in `actions.test.ts` for now."
+    },
+    {
+      "hash": "5ecc49fa8a60f6904276ee7fe28f85af633db173",
+      "date": "2026-10-13T12:30:41-05:00",
+      "message": "Remove `applyBalance` logic from `calculateConsumedBalance`: simplify balance consumption calculation."
+    },
+    {
+      "hash": "8b3a76bd5d5787a941d14e93092c07a2e01978b8",
+      "date": "2026-10-13T12:30:52-05:00",
+      "message": "Skip `calculateConsumedBalance` test suite temporarily."
+    },
+    {
+      "hash": "48daa03a47706c935ce088f2abb564afa6695773",
+      "date": "2026-10-13T12:51:29-05:00",
+      "message": "Refactor `search-services-with-due-invoice`: streamline error handling and simplify action execution logic."
+    },
+    {
+      "hash": "0514af142b3e3a4b0c1733d600b15f15601753c3",
+      "date": "2026-10-13T16:30:15-05:00",
+      "message": "`Refactor cycle execution: log key steps and add tasks for due invoice handling and service migration`"
+    },
+    {
+      "hash": "ef7e42244681c6784df6019e9a5b5737afe54359",
+      "date": "2026-10-13T17:57:47-05:00",
+      "message": "Refactor `mark-services-as-temporary-removal-if-due-invoices`: skip processing if only one invoice exists."
+    },
+    {
+      "hash": "658ed943049757d9339e2e1275a51dc0a8e85841",
+      "date": "2026-10-13T18:45:56-05:00",
+      "message": "Remove `IsMarkedAsDue` condition from pending schedule deletion query."
+    },
+    {
+      "hash": "cbad01eaeffe28d736dfbf1a4f15ae7fd13601f7",
+      "date": "2026-10-13T20:12:46-05:00",
+      "message": "Set `Manifest` type in `getScheduleHistory` response to allow `null`."
+    },
+    {
+      "hash": "60f312bfa9187be90ed4df5b3a3a6f728ff6885d",
+      "date": "2026-10-13T20:21:41-05:00",
+      "message": "Refactor `manifest-detail`: improve null checks, reuse \"No Evidence\" button, and streamline logic."
+    },
+    {
+      "hash": "89deca91cfcb526e3fa1df90761246d38e611651",
+      "date": "2026-10-13T20:26:09-05:00",
+      "message": "Update `getActionsAllow`: disable button for \"Temporary Removal\" state"
+    },
+    {
+      "hash": "1b06ab22184e0cfc71a9881efba7858ed887e1ed",
+      "date": "2026-10-15T10:59:59-05:00",
+      "message": "Update email templates: adjust overdue invoice messaging for clarity"
+    },
+    {
+      "hash": "43e1597606b60ecf5df8038c8ce17a107d479084",
+      "date": "2026-10-15T11:14:28-05:00",
+      "message": "Update `table-services-pending-schedule`: include \"Suspended\" state in `isInDefaultOrTemporaryRemoval` check"
+    },
+    {
+      "hash": "cb7a3f035df0d2597db9a29220bf63c2f4d9073c",
+      "date": "2026-10-15T11:23:44-05:00",
+      "message": "Fix typo in modal title and include `TransactionAmount` in manual invoice default values"
+    },
+    {
+      "hash": "0e08bd5ab9f8dff0a3a5e4f6d2ef5e88fbbb5006",
+      "date": "2026-10-15T11:57:36-05:00",
+      "message": "Reduce delay in `navigateTo` hook from 7 seconds to 5 seconds."
+    },
+    {
+      "hash": "7379279547925f0822ce3ea942abfdaf5f198b0b",
+      "date": "2026-10-15T12:00:23-05:00",
+      "message": "\"Update email subject logic in `send-email-in-default`: dynamically set based on template type\""
+    },
+    {
+      "hash": "d23e65d1583d9783ee473034353c5ab9dffb730e",
+      "date": "2026-10-15T14:26:12-05:00",
+      "message": "\"Update TypeScript config: adjust module resolution to 'bundler', include global CSS module declarations, and refine path mappings\""
+    },
+    {
+      "hash": "dc2f6d43057bf13c4e80bc1e298d61174eaf0653",
+      "date": "2026-10-19T15:22:22-05:00",
+      "message": "\"Validate schedule state in `suspend-and-close-manifest` and `sign-and-close-manifest`: ensure only 'Pending_Of_Collection' schedules proceed.\""
+    },
+    {
+      "hash": "72c467a0ee253184ea8e3bc59e5662d4d86eabb6",
+      "date": "2026-10-22T10:58:24-05:00",
+      "message": "Sort and format imports in `calculator/1/page.tsx` and improve code readability with consistent styling and indentation."
+    },
+    {
+      "hash": "f97e70bbea93bab914a13a09b486959ecb48ee39",
+      "date": "2026-10-22T11:42:16-05:00",
+      "message": "Refactor `useCurrentMonth` hook: add type validation, improve reusability with optional initial date, and optimize `prevMonth`/`nextMonth` with `useCallback`."
+    },
+    {
+      "hash": "d3bcf5ef8e5f0f7e0ca678571cdae77c95d3242f",
+      "date": "2026-10-22T12:05:41-05:00",
+      "message": "\"Refactor `TruckPage`: integrate `useCurrentMonth` for date handling, optimize `queryDriverWeekSchedule` with structured arguments, and improve SWR key consistency.\""
+    },
+    {
+      "hash": "015406af5f0d3041a7d5ae756b9fd8cb3453ad20",
+      "date": "2026-10-22T12:10:38-05:00",
+      "message": "Refactor `DriverWeekSchedule`: add `year` prop, improve type annotations, and enhance code readability with consistent formatting and updated utility calls."
+    },
+    {
+      "hash": "9d6db7c6dc215d4f4be14ac8765e8d2c8acf376b",
+      "date": "2026-10-22T12:11:59-05:00",
+      "message": "Update `mutate` call in `DriverWeekSchedule`: include `year` in SWR key for improved data revalidation."
+    },
+    {
+      "hash": "fc7a1b29a870a5128aec5daa6e765180e125bba2",
+      "date": "2026-10-22T12:39:43-05:00",
+      "message": "Refactor `assign-driver-modal`: improve type annotations, format code consistently, replace driver selection list with table, and enhance UI with selectable rows and checkboxes."
+    },
+    {
+      "hash": "f223263ac32d70aa24f4c489bcb0668d33267159",
+      "date": "2026-10-22T12:46:27-05:00",
+      "message": "Remove `DriverChoicer` component: unused and redundant functionality"
+    },
+    {
+      "hash": "81218bf846ccacaacf31a02a7f916c69c41c0bf2",
+      "date": "2026-10-22T12:49:16-05:00",
+      "message": "Refactor `assign-driver-modal`: extract modal layout into a reusable component and improve code structure."
+    },
+    {
+      "hash": "fae86b56f4b22ba12b1d7e21dc1f9f2327ed0bc1",
+      "date": "2026-10-22T16:24:33-05:00",
+      "message": "Refactor `assign-driver-modal`: simplify empty state handling, add loading state, and remove unused `showMessageIfEmptyTrucksModel` function."
+    },
+    {
+      "hash": "8919f267669de336d2d335ea7bd0bff8a22af0db",
+      "date": "2026-10-22T16:37:30-05:00",
+      "message": "Refactor `assign-driver-modal`: handle assigned drivers with `differenceBy`, improve error handling, and enhance type safety."
+    },
+    {
+      "hash": "2420b9f852344823b7129a66e32491144dbb88c6",
+      "date": "2026-10-22T17:08:38-05:00",
+      "message": "Refactor truck assignment and schedule APIs: improve type annotations, support multiple trucks, enhance error handling, and format code consistently."
+    },
+    {
+      "hash": "f1292f0919c23b21cd14c012ea323df621810d47",
+      "date": "2026-10-22T17:09:07-05:00",
+      "message": "Rename `getAssignTruck` to `getAssignTrucks`: update references across multiple modules for consistency."
+    },
+    {
+      "hash": "97a252f49d82c808411a6016555ae95e42a11940",
+      "date": "2026-10-22T17:31:31-05:00",
+      "message": "Refactor `useDriverUser` and `app-sidebar`: improve formatting, update type annotations, enhance error handling, and adjust UI for readability."
+    },
+    {
+      "hash": "86c7dee4d6d8bca83c771b383c5154ea60bb4932",
+      "date": "2026-10-22T18:08:46-05:00",
+      "message": "Add \"Suspended\" state badge in `table-services-pending-schedule`; update \"Postergado\" badge styling to yellow."
+    },
+    {
+      "hash": "f1bd492e3503ca16ecfe693fc61268e77d14d0ec",
+      "date": "2026-10-22T18:17:04-05:00",
+      "message": "Add \"Suspended\" state to services pay metrics: update counts, type definitions, and pie chart configuration."
+    },
+    {
+      "hash": "a72f414d9338b44cb5ed251ad0d787bb72bd97b7",
+      "date": "2026-10-22T18:21:07-05:00",
+      "message": "Add \"Guardianes\" type to cargo collection type mappings"
+    },
+    {
+      "hash": "343891e6a9f447527ab1dbb010152440316e5e8a",
+      "date": "2026-10-22T18:56:31-05:00",
+      "message": "**Update `contract-generator.tsx`: Refactor and standardize legal terms, clauses, and formatting for improved clarity and compliance**"
+    },
+    {
+      "hash": "649f3beb57c454075d9f6c9a43fdc6fb132282e8",
+      "date": "2026-10-23T09:56:58-05:00",
+      "message": "Refactor `search-early-payment-overdue-invoice`: improve error handling, rename variables, and optimize invoice processing steps"
+    },
+    {
+      "hash": "f65bde1df400e54994e69e635d47938a8a1c03a9",
+      "date": "2026-10-23T11:57:08-05:00",
+      "message": "Add \"Retirado\" badge for collected items without `SerialManifest`; refactor `withDelayStates` to improve argument structure and enhance flexibility in badge state handling"
+    },
+    {
+      "hash": "3dc0f8e9dcf1be1aeaa10fc05668eba030026b6b",
+      "date": "2026-10-23T11:59:54-05:00",
+      "message": "Add null `SerialManifest` handling in `table-services-pending-schedule` to accommodate pending schedules without processing manifests."
+    },
+    {
+      "hash": "fbde33b238060799996dc11b8cc1c520732b922a",
+      "date": "2026-10-23T12:09:10-05:00",
+      "message": "Update truck list and dashboard layout: adjust grid class for responsiveness and refine spacing for consistent UI"
+    },
+    {
+      "hash": "318d1a1007758bca6fea55373e0a20deba6cbda5",
+      "date": "2026-10-23T17:16:40-05:00",
+      "message": "Add `BadgeIndicator` for dynamic request state badges: refactor `TypeStateRequest` to `as const`, update table column for state mapping."
+    },
+    {
+      "hash": "81879e83ef3d769acf1303ec54c1b0a4a1ac2ba5",
+      "date": "2026-10-23T17:16:58-05:00",
+      "message": "Simplify `StateRequest` badge column: streamline `cell` rendering for improved readability."
+    },
+    {
+      "hash": "a7cf883949ba593b1d32df28300664a5d3327717",
+      "date": "2026-10-23T18:06:37-05:00",
+      "message": "Refactor `TypeStateRequest` usage: introduce `StateValue` type alias for improved type clarity and consistency across multiple components."
+    },
+    {
+      "hash": "42c6e69b3fd051dc3f3fb54b5806341bca4b29cb",
+      "date": "2026-10-27T10:25:36-05:00",
+      "message": "Refactor: Remove unused `NiceModal.Provider` wrappers across components for cleaner code and improved maintainability."
+    },
+    {
+      "hash": "9170220740d8a26accde56b52219f95d0e2d71c7",
+      "date": "2026-10-27T10:55:20-05:00",
+      "message": "Refactor: Extract invoice generation logic from `complete-service` to `generate-invoice` for modularity and reusability."
+    },
+    {
+      "hash": "62065900b5d3cca451e0febc7623541cd6ae290c",
+      "date": "2026-10-27T10:58:08-05:00",
+      "message": "Add `GenerateInvoiceEvent` to Inngest functions for improved event handling"
+    },
+    {
+      "hash": "c52f904abc9f4327c475fac42134d7eccf7361e1",
+      "date": "2026-10-27T10:59:12-05:00",
+      "message": "Rename Inngest function IDs for consistency (`first-month-execute` → `cron-1th-execute`, `eleven-day-month-execute` → `cron-11th-execute`)."
+    },
+    {
+      "hash": "a8d50cebb00a93db6656a097ecd7d396fce7aa67",
+      "date": "2026-10-27T11:55:30-05:00",
+      "message": "Extract and reuse Siigo invoice normalization utilities: move `getIdWithoutVerificationDigit`, `getNormalizedName`, and `getNormalizedNameInArray` to a shared module for better modularity and maintainability."
+    },
+    {
+      "hash": "8f61dead370eb8b26a96970cc9919ae21381d624",
+      "date": "2026-10-27T11:56:38-05:00",
+      "message": "Extract `getSKUProductByTypeService` to a dedicated utility module for improved reusability and code organization."
+    },
+    {
+      "hash": "f3bb24dd96efd206b2c98916f298311c8cd69eb7",
+      "date": "2026-10-27T13:46:29-05:00",
+      "message": "Add `@ambientales/personal` and `@ambientales/siigo` modules with initial setup: implement `getById` utility in `personal` and configure dependencies, TypeScript paths, and bundling options."
+    },
+    {
+      "hash": "a66f7fc4588a5cccb0d2fd5f54c43e9813b6126e",
+      "date": "2026-10-27T13:54:32-05:00",
+      "message": "Integrate `@ambientales/personal` in invoice creation: replace direct calls with `getById` utility for improved modularity and reusability in Siigo provider logic."
+    },
+    {
+      "hash": "6bfcb440cfe32355f65298a43e1cfe7da2558133",
+      "date": "2026-10-27T13:56:51-05:00",
+      "message": "Add non-null assertion (`!`) to `splitName.at(0)` in Siigo normalization utility"
+    },
+    {
+      "hash": "1d3bf3105c515a2961866e3fd6df48440eadbab3",
+      "date": "2026-10-27T14:28:55-05:00",
+      "message": "**Refactor Siigo utilities and replace `TypeService` with modular schema imports**"
+    },
+    {
+      "hash": "df13bfb463ca72552a7fb317232daa2e9edda598",
+      "date": "2026-10-27T14:38:14-05:00",
+      "message": "**Refactor(base): replace hardcoded enums with modular TypeService imports and streamline unified service logic**"
+    },
+    {
+      "hash": "15f31a85d31069d0d447790d41714e1dad53b919",
+      "date": "2026-10-27T15:15:00-05:00",
+      "message": "**Refactor(Siigo): Extract and modularize customer generation logic**"
+    },
+    {
+      "hash": "f77ee8d6c854ba19251b3b09c17229cca802bb90",
+      "date": "2026-10-27T15:50:18-05:00",
+      "message": "**Refactor(Siigo): Extract `getPayload` utility for invoice creation**"
+    },
+    {
+      "hash": "e3f13c1ffbfa4c47dd2c1cc8ff229d443185fdc4",
+      "date": "2026-10-27T15:56:55-05:00",
+      "message": "**Refactor(Siigo): Simplify and streamline exports in index module**"
+    },
+    {
+      "hash": "2482474b55d3163c7f960c3dd2479d28e4f80eda",
+      "date": "2026-10-27T15:58:27-05:00",
+      "message": "**Refactor(Siigo): Streamline utility imports and centralize normalization helpers**"
+    },
+    {
+      "hash": "ed3b38c412d7289fee1cbb814261e32c0182ced4",
+      "date": "2026-10-27T16:41:59-05:00",
+      "message": "**Refactor(Siigo): Use relative imports for improved modularity**"
+    },
+    {
+      "hash": "d23902a03286c3c4217d6681627e8cfab13e1c25",
+      "date": "2026-10-27T16:46:24-05:00",
+      "message": "**Refactor(Siigo): Rename variable for clarity in invoice creation action**"
+    },
+    {
+      "hash": "d53b5844f14fc1585eb9c97226737f74addc4053",
+      "date": "2026-10-28T11:00:30-05:00",
+      "message": "**Refactor: Standardize imports and improve readability across multiple modules**"
+    },
+    {
+      "hash": "3d206b0eabb2d6479afb7073060cf4f60aea5de3",
+      "date": "2026-10-28T11:13:35-05:00",
+      "message": "**Refactor(schemas): simplify `TypeServiceValues` definition with reusable `ValueOf` utility**"
+    },
+    {
+      "hash": "fe433c0bc44753b6619c239d1b18627687699991",
+      "date": "2026-10-28T11:24:40-05:00",
+      "message": "Refactor(Siigo): Extract `ResponseInvoicesPayload` type and reuse across modules"
+    },
+    {
+      "hash": "01c1f8479c8859f1978df9a8f572b842a76393ac",
+      "date": "2026-10-28T13:14:37-05:00",
+      "message": "**Feat(invoices): Add `getMaybeById` utility and integrate with Siigo invoice creation**"
+    },
+    {
+      "hash": "bed42908dfb33165a58cfbfd7afc41c5de9008d4",
+      "date": "2026-10-28T13:15:07-05:00",
+      "message": "Feat(config): Add `@ambientales/invoices` alias to module resolver"
+    },
+    {
+      "hash": "1eca4ca3c732addcc348a702998314416e3a93e8",
+      "date": "2026-10-28T13:48:24-05:00",
+      "message": "feat(invoices): add `updateProviderPayload` utility and integrate with Siigo invoice creation"
+    },
+    {
+      "hash": "c9d457383574f74d19d4d3995e699d57f623ad18",
+      "date": "2026-10-28T16:20:17-05:00",
+      "message": "feat(invoices): include `YearOf` in invoice-service link and integrate `createInvoiceService` with Siigo"
+    },
+    {
+      "hash": "2deaf7e766b3019b832c1b2a22adbff173384e44",
+      "date": "2026-10-28T16:27:18-05:00",
+      "message": "**Refactor: Replace local imports with `@ambientales/schemas` for `TypeService` and improve code formatting**"
+    }
+  ]
+}
