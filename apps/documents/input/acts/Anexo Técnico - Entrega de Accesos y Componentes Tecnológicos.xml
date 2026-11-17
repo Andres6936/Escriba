@@ -1,0 +1,322 @@
+<Document
+  subject="Anexo Técnico de Entrega de Accesos, Componentes y Código Fuente"
+  title="Plataforma Residuos Ambientales"
+  author="Joan Andrés Buriticá Salazar"
+  keywords="Accesos, Componentes, Código Fuente, Anexo Técnico, REAM"
+  creator="Joan Andrés Buriticá Salazar"
+  producer="React PDF with Bun"
+  language="es"
+>
+  <Cover
+    type="Anexo Técnico de Entrega"
+    title="Plataforma Residuos Ambientales"
+    month="Noviembre 2026"
+  />
+
+  <Paginate>
+    <IndicatorHeader value="Ing. Joan A. Buriticá" />
+    <Section marginTop="0" gap="0.1cm">
+      <Text>
+        <Text bold="true">Fecha de Entrega:<S /></Text>
+        17 de noviembre de 2026
+      </Text>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="md">
+        ANEXO TÉCNICO DE ENTREGA DE ACCESOS, COMPONENTES TECNOLÓGICOS Y CÓDIGO
+        FUENTE
+      </Title>
+
+      <Paragraph>
+        El objeto de este anexo es dejar constancia de los enlaces de acceso a
+        producción, la relación de componentes tecnológicos, las credenciales y
+        accesos administrativos, y el código fuente y repositorios entregados a
+        EL CONTRATANTE para la administración, mantenimiento, modificación y
+        continuidad técnica de la plataforma.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        PRIMERA - ENLACES DE ACCESO A PRODUCCIÓN:
+      </Title>
+
+      <Paragraph>
+        La plataforma cuenta con un único ambiente de producción. Se entregan
+        los siguientes enlaces:
+      </Paragraph>
+
+      <Table>
+        <Header>
+          <Row>
+            <Cell flex="2">Acceso</Cell>
+            <Cell flex="3">URL / Enlace</Cell>
+            <Cell>Proveedor</Cell>
+          </Row>
+        </Header>
+        <Body>
+          <Row>
+            <Cell flex="2">Plataforma — Producción</Cell>
+            <Cell flex="3">https://www.residuosambientales.com/</Cell>
+            <Cell>Vercel</Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Panel administrativo — Producción</Cell>
+            <Cell flex="3"
+              >https://vercel.com/residuos-ambientales-sass-projects/ambientales/</Cell
+            >
+            <Cell>Vercel</Cell>
+          </Row>
+        </Body>
+      </Table>
+
+      <Paragraph>
+        Si el panel administrativo comparte la URL de la plataforma, se indicará
+        la misma dirección.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        SEGUNDA - RELACIÓN DE COMPONENTES TECNOLÓGICOS:
+      </Title>
+
+      <Paragraph>
+        La plataforma utiliza los siguientes proveedores, servicios externos,
+        licencias y herramientas:
+      </Paragraph>
+
+      <Table>
+        <Header>
+          <Row>
+            <Cell flex="2">Componente / Servicio</Cell>
+            <Cell flex="2">Proveedor</Cell>
+            <Cell flex="3">Uso dentro de la plataforma</Cell>
+          </Row>
+        </Header>
+        <Body>
+          <Row>
+            <Cell flex="2">Núcleo de la plataforma</Cell>
+            <Cell flex="2">Supabase</Cell>
+            <Cell flex="3">
+              Base de datos relacional, almacenamiento de archivos (S3),
+              archivos y servicios asociados de la plataforma.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Hospedaje web</Cell>
+            <Cell flex="2">Vercel</Cell>
+            <Cell flex="3">
+              Despliegue y hosting de la página web y del frontend.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Orquestación de jobs</Cell>
+            <Cell flex="2">Inngest</Cell>
+            <Cell flex="3">
+              Orquestación de jobs, cron jobs y programación dirigida por
+              eventos.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Repositorio y proveedor de identidad</Cell>
+            <Cell flex="2">GitHub</Cell>
+            <Cell flex="3">
+              Código fuente, control de versiones, CI/CD y autenticación
+              (OAuth/SSO) para Vercel, Supabase e Inngest.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Cuenta de acceso raíz</Cell>
+            <Cell flex="2">Gmail (REAM)</Cell>
+            <Cell flex="3">
+              Cuenta de correo que permite acceder a GitHub y, por identidad
+              federada, a los demás servicios. Es crítica para la continuidad.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Dominio y DNS</Cell>
+            <Cell flex="2">Namecheap</Cell>
+            <Cell flex="3">
+              Resolución del dominio, subdominios, certificados y correo
+              corporativo, si aplica.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Servicios adicionales</Cell>
+            <Cell flex="2">Siigo, Mercadopago</Cell>
+            <Cell flex="3">
+              [Mapas, geolocalización, telefonía, correo, analítica, monitoreo,
+              pagos u otros.]
+            </Cell>
+          </Row>
+        </Body>
+      </Table>
+
+      <Paragraph>
+        Costos recurrentes: las Partes se remiten a lo pactado en el contrato.
+        El plan actual de Supabase es de USD 25 mensuales.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        TERCERA - CREDENCIALES Y ACCESOS ADMINISTRATIVOS:
+      </Title>
+
+      <Paragraph>
+        Por seguridad, este documento no incluye contraseñas ni claves secretas
+        en texto claro. REAM es la única responsable del resguardo, protección y
+        almacenamiento de las credenciales. Estas deben entregarse mediante un
+        gestor de contraseñas o un sobre sellado, y REAM debe rotarlas después
+        de la entrega.
+      </Paragraph>
+
+      <Table>
+        <Header>
+          <Row>
+            <Cell flex="2">Servicio</Cell>
+            <Cell flex="2">Cuenta / Usuario</Cell>
+            <Cell flex="3">Rol / Permisos</Cell>
+          </Row>
+        </Header>
+        <Body>
+          <Row>
+            <Cell flex="2">Gmail (REAM)</Cell>
+            <Cell flex="2">residuosambientalessas@gmail.com</Cell>
+            <Cell flex="3">
+              Cuenta raíz de acceso. Debe tener MFA, métodos de recuperación y
+              control exclusivo de REAM.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">GitHub</Cell>
+            <Cell flex="2">ResiduosAmbientales</Cell>
+            <Cell flex="3">
+              Owner/Admin de la organización o repositorio. Acceso al código,
+              secrets y GitHub Actions.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Vercel</Cell>
+            <Cell flex="2">Github Account</Cell>
+            <Cell flex="3">
+              Owner/Admin del equipo y proyecto. Variables de entorno, dominios
+              y despliegues.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Supabase</Cell>
+            <Cell flex="2">Github Account</Cell>
+            <Cell flex="3">
+              Owner/Admin de la organización y proyecto. Base de datos, storage,
+              API keys y backups.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Inngest</Cell>
+            <Cell flex="2">Github Account</Cell>
+            <Cell flex="3">
+              Owner/Admin del workspace. Funciones, eventos, cron jobs y signing
+              keys.
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Dominio / DNS</Cell>
+            <Cell flex="2">Desconocidas</Cell>
+            <Cell flex="3">
+              Administrador del dominio, DNS y certificados.
+            </Cell>
+          </Row>
+        </Body>
+      </Table>
+
+      <Paragraph>
+        Advertencia de seguridad: la cuenta de Gmail es la raíz de acceso. Quien
+        la controle puede acceder a GitHub, al código fuente, a las variables de
+        entorno y, mediante identidad federada, a Vercel, Supabase e Inngest.
+        Debe resguardarse con MFA, contraseña robusta, métodos de recuperación
+        controlados por REAM y revisión periódica de sesiones activas.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        CUARTA - CÓDIGO FUENTE Y REPOSITORIOS:
+      </Title>
+
+      <Section gap="0.1cm" margin="0">
+        <BulletText>
+          Repositorio principal:
+          https://github.com/ResiduosAmbientales/Ambientales
+        </BulletText>
+        <BulletText> Rama principal / release: master </BulletText>
+        <BulletText> Último commit o versión entregada: 85e8320 </BulletText>
+        <BulletText>
+          Instrucciones de instalación, build y despliegue: README.md
+        </BulletText>
+        <BulletText> CI/CD: GitHub Actions </BulletText>
+        <BulletText>
+          Variables de entorno y secrets: administrados en Vercel, Supabase,
+          Inngest y GitHub. No se incluyen valores en este documento.
+        </BulletText>
+        <BulletText> Backups: Todos los días, duración de 7 días. </BulletText>
+      </Section>
+
+      <Paragraph>
+        Propiedad y accesos: el repositorio y la organización deben estar bajo
+        titularidad y control de EL CONTRATANTE. Durante la vigencia de la
+        garantía técnica, EL CONTRATANTE podrá otorgar acceso temporal a EL
+        CONTRATISTA para la corrección de errores; finalizada la garantía, dicho
+        acceso deberá revocarse. EL CONTRATISTA declara que, después de la
+        entrega, no conserva accesos de propietario ni credenciales, salvo el
+        acceso temporal de soporte expresamente autorizado.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" gap="0.1cm">
+      <Title size="xs" textAlign="left">
+        QUINTA - OBLIGACIONES DE RESGUARDO Y SEGURIDAD:
+      </Title>
+
+      <BulletText>
+        Cambiar las contraseñas de todas las cuentas después de la entrega.
+      </BulletText>
+      <BulletText>
+        Activar MFA en Gmail, GitHub, Vercel, Supabase e Inngest.
+      </BulletText>
+      <BulletText>
+        Revisar y revocar usuarios, tokens, API keys y sesiones que no sean
+        necesarios.
+      </BulletText>
+      <BulletText>
+        Rotar las API keys y secrets críticos: Supabase service role, Inngest
+        signing keys, Vercel tokens y GitHub tokens.
+      </BulletText>
+      <BulletText>
+        Configurar los métodos de recuperación del Gmail bajo control exclusivo
+        de REAM.
+      </BulletText>
+      <BulletText>
+        Mantener backups y verificar periódicamente su restauración.
+      </BulletText>
+      <BulletText>
+        Guardar las credenciales en un gestor de contraseñas bajo control de
+        REAM, no en correos ni documentos compartidos.
+      </BulletText>
+      <BulletText>
+        Documentar los cambios de accesos, responsables y fechas.
+      </BulletText>
+    </Section>
+
+    <SignSection hiddenTitle="true">
+      <SignRow gap="25pt" height="110pt">
+        <SignPadLeft
+          signBy="Yomaira Beytar Florez, Representante Legal REAM - NIT 901.747.145-4"
+        />
+        <SignMeRight />
+      </SignRow>
+    </SignSection>
+  </Paginate>
+</Document>
