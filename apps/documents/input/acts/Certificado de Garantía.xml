@@ -1,0 +1,181 @@
+<Document
+  subject="Certificado de Garantía Técnica"
+  title="Plataforma Residuos Ambientales"
+  author="Joan Andrés Buriticá Salazar"
+  keywords="Garantía, Soporte, Software, REAM"
+  creator="Joan Andrés Buriticá Salazar"
+  producer="React PDF with Bun"
+  language="es"
+>
+  <Cover
+    type="Certificado de Garantía"
+    title="Plataforma Residuos Ambientales"
+    month="Noviembre 2026"
+  />
+
+  <Paginate>
+    <IndicatorHeader value="Ing. Joan A. Buriticá" />
+    <Section marginTop="0" gap="0.1cm">
+      <Text>
+        <Text bold="true">Fecha de Expedición:<S /></Text>
+        17 de noviembre de 2026
+      </Text>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="md">CERTIFICADO DE GARANTÍA TÉCNICA</Title>
+
+      <Paragraph>
+        Entre los suscritos, por una parte,
+        <Bold>RESIDUOS AMBIENTALES S.A.S. (REAM)</Bold>, identificada con NIT
+        901.747.145-4,
+        <Bold>representada legalmente por YOMAIRA BEYTAR FLOREZ</Bold>, en
+        adelante EL CONTRATANTE; y por la otra,
+        <Bold>JOAN ANDRÉS BURITICÁ SALAZAR</Bold>, mayor de edad, identificado
+        con cédula de ciudadanía No. 1.143.995.473, con licencia profesional No.
+        171122-0620819 VL expedida por el Consejo Profesional Nacional de
+        Ingeniería (COPNIA), en adelante EL CONTRATISTA, suscriben la presente
+        Acta de Cierre y Entrega Final del
+        <Bold
+          >CONTRATO DE PRESTACIÓN DE SERVICIOS PROFESIONALES CELEBRADO ENTRE
+          RESIDUOS AMBIENTALES S.A.S. Y JOAN ANDRES BURITICA SALAZAR</Bold
+        >, con fecha de inicio 08 de septiembre de 2025.
+      </Paragraph>
+
+      <Table>
+        <Header>
+          <Row>
+            <Cell flex="2">Concepto</Cell>
+            <Cell flex="3">Detalle</Cell>
+          </Row>
+        </Header>
+        <Body>
+          <Row>
+            <Cell flex="2">Vigencia</Cell>
+            <Cell flex="3">
+              17 de noviembre de 2026 a 17 de febrero de 2027
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Duración</Cell>
+            <Cell flex="3">Tres (3) meses</Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Cobertura</Cell>
+            <Cell flex="3">
+              Corrección de errores, defectos o fallas de funcionamiento de la
+              plataforma y funcionalidades desarrolladas
+            </Cell>
+          </Row>
+          <Row>
+            <Cell flex="2">Tope de responsabilidad</Cell>
+            <Cell flex="3">$9.111.902 COP</Cell>
+          </Row>
+        </Body>
+      </Table>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left">PRIMERA - VIGENCIA:</Title>
+
+      <Paragraph>
+        La Garantía Técnica tiene una duración de tres (3) meses, contados a
+        partir del 17 de noviembre de 2026 y hasta el 17 de febrero de 2027.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left">SEGUNDA - COBERTURA:</Title>
+
+      <Paragraph>
+        Durante la vigencia, EL CONTRATISTA se obliga a corregir cualquier
+        error, defecto o falla que afecte el funcionamiento de la plataforma
+        software y de las funcionalidades desarrolladas, sin costo adicional
+        para EL CONTRATANTE.
+      </Paragraph>
+
+      <Paragraph>
+        La garantía cubre exclusivamente la corrección de errores (Bugs) que
+        impidan el funcionamiento conforme a los criterios de aceptación del
+        Acta de Cierre y Entrega Final. No cubre nuevos requerimientos, mejoras,
+        cambios de alcance ni desarrollos adicionales, los cuales requerirán
+        cotización independiente.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left">TERCERA - EXCLUSIONES:</Title>
+
+      <Paragraph>
+        La garantía no cubrirá fallas o defectos que sean resultado de: (a) uso
+        indebido de la plataforma; (b) modificaciones, alteraciones o
+        manipulaciones realizadas por personal de EL CONTRATANTE o terceros no
+        autorizados; (c) fallas en el hardware, software, sistemas operativos o
+        redes de terceros; (d) causas de fuerza mayor o caso fortuito; (e)
+        servicios, cuentas, dominios, certificados o componentes de terceros; o
+        (f) el nuevo alcance descrito en el Acta de Cierre y Entrega Final.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left">CUARTA - REPORTE Y ATENCIÓN:</Title>
+
+      <Paragraph>
+        EL CONTRATANTE deberá reportar los errores por escrito, con descripción
+        del problema, evidencia, pasos para reproducirlo e impacto. EL
+        CONTRATISTA atenderá los reportes en un plazo razonable, priorizando los
+        errores críticos que impidan la operación, de conformidad con la
+        Cláusula Décima Segunda del contrato principal.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left">
+        QUINTA - LÍMITE DE RESPONSABILIDAD:
+      </Title>
+
+      <Paragraph>
+        La responsabilidad total de EL CONTRATISTA bajo el contrato por
+        cualquier daño directo, contractual o extracontractual, se limita al
+        valor total del contrato, esto es, a la suma de NUEVE MILLONES CIENTO
+        ONCE MIL NOVECIENTOS DOS PESOS M/CTE ($9.111.902 COP). En ningún caso EL
+        CONTRATISTA será responsable por daños indirectos, lucro cesante,
+        pérdida de datos o interrupción de negocio.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left">SEXTA - INDEPENDENCIA:</Title>
+
+      <Paragraph>
+        La presente garantía no extiende la vigencia del contrato, no crea una
+        obligación de mantenimiento permanente y no comprende el nuevo alcance
+        ni los servicios de terceros. Su vigencia y alcance se limitan a lo
+        expresamente previsto en este certificado.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left">SÉPTIMA - ACEPTACIÓN:</Title>
+
+      <Paragraph>
+        Las Partes declaran haber leído y aceptado el presente Certificado de
+        Garantía Técnica.
+      </Paragraph>
+
+      <Paragraph>
+        Para constancia y en señal de aceptación, se firma en Colombia, a los 17
+        días del mes de noviembre de 2026.
+      </Paragraph>
+    </Section>
+
+    <SignSection hiddenTitle="true">
+      <SignRow gap="25pt" height="100pt">
+        <SignPadLeft
+          signBy="Yomaira Beytar Florez, Representante Legal REAM - NIT 901.747.145-4"
+        />
+        <SignMeRight />
+      </SignRow>
+    </SignSection>
+  </Paginate>
+</Document>
