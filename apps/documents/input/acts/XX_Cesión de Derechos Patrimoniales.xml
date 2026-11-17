@@ -2,14 +2,14 @@
   subject="Cesión de Derechos Patrimoniales"
   title="Plataforma Residuos Ambientales"
   author="Joan Andrés Buriticá Salazar"
-  keywords="IP, Derechos de Autor, Cesión, Software"
+  keywords="IP, Derechos de Autor, Cesión, Software, REAM"
   creator="Joan Andrés Buriticá Salazar"
   producer="React PDF with Bun"
   language="es"
 >
   <Cover
     type="Acuerdo de Cesión de Derechos"
-    title="Software: Plataforma Residuos Ambientales"
+    title="Plataforma Residuos Ambientales"
     month="Noviembre 2026"
   />
 
@@ -17,107 +17,276 @@
     <IndicatorHeader value="Ing. Joan A. Buriticá" />
     <Section marginTop="0" gap="0.1cm">
       <Text>
-        <Text bold="1">
-          Fecha de Elaboración:
-          <S />
-        </Text>
+        <Text bold="true">Fecha de Suscripción:<S /></Text>
         17 de noviembre de 2026
       </Text>
     </Section>
 
-    <Section wrap="1">
-      <Title>
+    <Section wrap="true">
+      <Title size="md">
         CONTRATO DE CESIÓN DE DERECHOS PATRIMONIALES SOBRE OBRA DE SOFTWARE
       </Title>
 
       <Paragraph>
-        Entre los suscritos, por una parte, JOAN ANDRÉS BURITICÁ SALAZAR,
-        actuando en nombre propio, en adelante denominado EL CEDENTE
-        (Autor/Desarrollador), y por la otra, RESIDUOS AMBIENTALES S.A.S.
-        (REAM), representada legalmente por YOMAIRA BEYTAR FLOREZ, en adelante
-        denominada EL CESIONARIO, acuerdan celebrar el presente documento de
-        Cesión de Derechos Patrimoniales, el cual se rige por las siguientes
-        cláusulas:
+        Entre los suscritos, por una parte, JOAN ANDRÉS BURITICÁ SALAZAR, mayor
+        de edad, identificado con cédula de ciudadanía No. 1.143.995.473, con
+        licencia profesional No. 171122-0620819 VL expedida por el Consejo
+        Profesional Nacional de Ingeniería (COPNIA), actuando en nombre propio,
+        en adelante EL CEDENTE (Autor/Desarrollador); y por la otra, RESIDUOS
+        AMBIENTALES S.A.S. (REAM), identificada con NIT 901.747.145-4,
+        representada legalmente por YOMAIRA BEYTAR FLOREZ, en adelante EL
+        CESIONARIO, acuerdan celebrar el presente Contrato de Cesión de Derechos
+        Patrimoniales, que se rige por las siguientes cláusulas:
       </Paragraph>
     </Section>
 
-    <Section wrap="1">
-      <Title size="xs" textAlign="left"> PRIMERA - OBJETO DE LA CESIÓN: </Title>
-      <Paragraph>
-        EL CEDENTE transfiere a favor de EL CESIONARIO, de forma exclusiva y sin
-        limitación territorial, los derechos patrimoniales y de explotación
-        económica sobre el código fuente a medida, bases de datos relacionales y
-        flujos de interfaz gráfica desarrollados para la "Plataforma de Gestión
-        Logística y Administrativa" (en adelante "El Software"), entregados
-        conforme al Contrato de Prestación de Servicios original y sus
-        respectivos Otrosíes (No. 1, 2, 3 y 4).
-      </Paragraph>
-    </Section>
-
-    <Section wrap="1">
+    <Section wrap="true">
       <Title size="xs" textAlign="left">
-        SEGUNDA - CONDICIÓN SUSPENSIVA Y VIGENCIA (BLOQUEO LEGAL):
+        PRIMERA - OBJETO Y ALCANCE DE LA CESIÓN:
       </Title>
+
       <Paragraph>
-        Las partes declaran de manera expresa e innegociable que la presente
-        cesión de derechos está sujeta a una
-        <Text bold="1">Condición Suspensiva</Text>. La transferencia patrimonial
-        objeto de la Cláusula Primera carecerá de todo efecto legal, y EL
-        CEDENTE mantendrá la titularidad absoluta del Software, hasta que se
-        verifique y confirme el pago total, efectivo y libre de retenciones no
-        pactadas de la liquidación final del proyecto, correspondiente a la suma
-        de DOS MILLONES SETECIENTOS OCHENTA Y OCHO MIL DOSCIENTOS CATORCE PESOS
-        M/CTE ($2'788.214 COP). Una vez reflejado el pago, la cesión quedará
-        perfeccionada automáticamente.
+        EL CEDENTE transfiere a favor de EL CESIONARIO, de forma total,
+        exclusiva, definitiva e irrevocable, y por todo el término de protección
+        legal, en todo el territorio mundial, los derechos patrimoniales de
+        autor y todas las modalidades de explotación sobre EL SOFTWARE,
+        entendido como la plataforma software denominada comercialmente
+        "Plataforma Residuos Ambientales", desarrollada en ejecución del
+        CONTRATO DE PRESTACIÓN DE SERVICIOS PROFESIONALES CELEBRADO ENTRE
+        RESIDUOS AMBIENTALES S.A.S. Y JOAN ANDRES BURITICA SALAZAR, con fecha de
+        inicio 08 de septiembre de 2025, sus Otrosíes No. 1, 2, 3 y 4, el Acta
+        de Cierre y Entrega Final, el documento de Intercambio de Requerimientos
+        y el Control de Cambios No. 1.
+      </Paragraph>
+
+      <Paragraph>
+        La cesión comprende, sin limitarse a, el código fuente nativo, el código
+        objeto, la arquitectura, las bases de datos y su esquema, los flujos de
+        interfaz gráfica, los diseños de interfaz y experiencia de usuario, la
+        documentación técnica y de usuario, los scripts, las pruebas
+        automatizadas, los archivos de configuración y todo material entregado
+        por EL CEDENTE en ejecución del contrato.
+      </Paragraph>
+
+      <Paragraph>
+        La cesión no comprende: (i) los datos, contenidos, marcas, logos o
+        materiales proporcionados por EL CESIONARIO, que son de su titularidad;
+        (ii) los componentes de código abierto, que se rigen por sus respectivas
+        licencias; y (iii) las cuentas, dominios, certificados, API keys,
+        suscripciones y servicios de terceros, que son administrados por EL
+        CESIONARIO.
+      </Paragraph>
+
+      <Paragraph>
+        La exclusividad se refiere únicamente a EL SOFTWARE y a sus obras
+        derivadas. No limita el derecho de EL CEDENTE a utilizar sus
+        conocimientos, metodologías, componentes genéricos y experiencia en
+        otros proyectos, ni a desarrollar software similar, siempre que no
+        utilice código confidencial de EL CESIONARIO.
       </Paragraph>
     </Section>
 
-    <Section wrap="1">
+    <Section wrap="true">
       <Title size="xs" textAlign="left">
-        TERCERA - DERECHOS MORALES Y PORTAFOLIO:
+        SEGUNDA - PAGO Y PERFECCIONAMIENTO:
       </Title>
+
       <Paragraph>
-        De conformidad con la normativa de propiedad intelectual aplicable, EL
-        CEDENTE conserva de manera perpetua, inalienable e irrenunciable los
-        Derechos Morales sobre la obra (derecho de paternidad). En consecuencia,
-        EL CEDENTE conserva el derecho a ser reconocido como el autor y
-        arquitecto del software, y mantiene la potestad de exhibir capturas de
-        pantalla, flujos abstractos y métricas de desempeño de la plataforma
-        exclusivamente como parte de su portafolio profesional y comercial,
-        garantizando en todo momento la anonimización de los datos sensibles y
-        el secreto comercial de EL CESIONARIO.
+        Las Partes declaran que EL CESIONARIO pagó a EL CEDENTE el saldo final
+        de la liquidación del proyecto por la suma de DOS MILLONES SETECIENTOS
+        OCHENTA Y OCHO MIL DOSCIENTOS CATORCE PESOS M/CTE ($2'788.214 COP), pago
+        que fue verificado mediante el comprobante bancario respectivo con
+        anterioridad a la suscripción de este documento. En consecuencia, la
+        condición suspensiva de pago se entiende cumplida y la cesión queda
+        perfeccionada en este acto.
+      </Paragraph>
+
+      <Paragraph>
+        Si el pago fuere reversado, revocado, dejado sin efecto o cuestionado
+        por cualquier causa imputable a EL CESIONARIO, la cesión se resolverá
+        automáticamente y EL CEDENTE recuperará la titularidad de EL SOFTWARE,
+        sin perjuicio de las acciones que correspondan.
       </Paragraph>
     </Section>
 
-    <Section wrap="1">
+    <Section wrap="true">
       <Title size="xs" textAlign="left">
-        CUARTA - COMPONENTES DE TERCEROS (OPEN SOURCE):
+        TERCERA - DERECHOS MORALES, EXPLOTACIÓN Y PORTAFOLIO:
       </Title>
+
       <Paragraph>
-        La presente cesión aplica estricta y exclusivamente sobre el código
-        fuente nativo programado por EL CEDENTE. La arquitectura del Software
-        integra librerías, marcos de trabajo (Frameworks) y componentes de
-        código abierto (Open Source) de terceros. Los derechos sobre dichos
-        componentes no son objeto de esta cesión y continúan rigiéndose bajo sus
-        respectivas licencias públicas internacionales (MIT, Apache, GPL, entre
-        otras).
+        EL CEDENTE conserva de manera perpetua, inalienable e irrenunciable
+        todos los derechos morales que la ley reconoce sobre la obra, en
+        particular el derecho de paternidad. EL CESIONARIO deberá reconocer a EL
+        CEDENTE como autor y arquitecto de EL SOFTWARE en los créditos,
+        documentación y comunicaciones que correspondan.
+      </Paragraph>
+
+      <Paragraph>
+        EL CEDENTE autoriza a EL CESIONARIO a realizar modificaciones,
+        actualizaciones, adaptaciones, correcciones, mejoras, traducciones y
+        obras derivadas de EL SOFTWARE, así como a integrarlo con otros
+        sistemas, y se compromete a no ejercer el derecho de integridad de
+        manera que impida la explotación normal de la obra, sin perjuicio de su
+        derecho a oponerse a modificaciones que afecten su honor o reputación.
+      </Paragraph>
+
+      <Paragraph>
+        A título enunciativo, y sin limitar las facultades legales de EL
+        CESIONARIO, este podrá: (i) reproducir, distribuir y comunicar
+        públicamente EL SOFTWARE; (ii) ponerlo a disposición del público por
+        medios digitales; (iii) explotarlo comercialmente, incluirlo en su
+        operación interna o en la prestación de servicios a terceros; (iv)
+        modificarlo, actualizarlo y crear obras derivadas; (v) sublicenciarlo o
+        cederlo a terceros, incluidos aliados, proveedores o adquirentes de su
+        negocio; y (vi) traducirlo, adaptarlo y usarlo en cualquier territorio.
+      </Paragraph>
+
+      <Paragraph>
+        EL CESIONARIO no podrá atribuirse la autoría de EL SOFTWARE, ni
+        registrar como suyas obras que correspondan a EL CEDENTE, ni ejercer los
+        derechos morales que la ley reserva al autor. El uso del nombre, logo o
+        marcas de EL CESIONARIO por parte de EL CEDENTE requerirá autorización
+        escrita.
+      </Paragraph>
+
+      <Paragraph>
+        EL CEDENTE conserva la potestad de exhibir capturas de pantalla, flujos
+        abstractos y métricas de desempeño de EL SOFTWARE exclusivamente como
+        parte de su portafolio profesional y comercial, garantizando la
+        anonimización de datos personales, información confidencial y secretos
+        comerciales de EL CESIONARIO.
       </Paragraph>
     </Section>
 
-    <Section wrap="1">
-      <Title size="xs" textAlign="left"> QUINTA - INDEMNIDAD: </Title>
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        CUARTA - COMPONENTES DE TERCEROS Y CÓDIGO ABIERTO:
+      </Title>
+
       <Paragraph>
-        EL CEDENTE declara que el código nativo desarrollado es de su creación
-        original y no infringe derechos de autor de terceros. La responsabilidad
-        máxima por cualquier reclamación derivada de este concepto quedará
-        limitada al tope financiero estipulado en la Cláusula Décima Segunda del
-        contrato principal.
+        La cesión aplica estricta y exclusivamente sobre el código fuente nativo
+        programado por EL CEDENTE. La arquitectura de EL SOFTWARE integra
+        librerías, marcos de trabajo y componentes de código abierto de
+        terceros. Los derechos sobre dichos componentes no son objeto de esta
+        cesión y continúan rigiéndose por sus respectivas licencias de código
+        abierto.
+      </Paragraph>
+
+      <Paragraph>
+        EL CEDENTE declara que no incorporó componentes bajo licencia AGPL y que
+        ha cumplido con las obligaciones de atribución y aviso de las licencias
+        utilizadas. Los avisos y textos de licencia se entregan con EL SOFTWARE.
+        EL CESIONARIO acepta que el uso de dichos componentes se rige por sus
+        licencias y que EL CEDENTE no será responsable por el incumplimiento de
+        EL CESIONARIO frente a dichas licencias.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        QUINTA - DECLARACIONES Y GARANTÍAS:
+      </Title>
+
+      <Paragraph>
+        EL CEDENTE declara y garantiza que: (i) el código nativo es de su
+        creación original; (ii) no utilizó código generado por inteligencia
+        artificial generativa para este proyecto; (iii) no incorporó malware,
+        backdoors, mecanismos de desactivación ni código malicioso; (iv) los
+        derechos cedidos no están embargados, pignorados, cedidos previamente ni
+        sujetos a licencias exclusivas; (v) cualquier colaborador o
+        subcontratista cedió sus derechos a EL CEDENTE; y (vi) el código nativo
+        no infringe derechos de autor de terceros.
+      </Paragraph>
+
+      <Paragraph>
+        EL CEDENTE actúa como contratista independiente y asume sus obligaciones
+        tributarias. Este documento no crea relación laboral, sociedad, mandato
+        ni agencia entre las Partes.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">SEXTA - INDEMNIDAD:</Title>
+
+      <Paragraph>
+        EL CEDENTE mantendrá indemne a EL CESIONARIO frente a cualquier
+        reclamación de terceros por infracción de derechos de autor derivada del
+        código nativo, siempre que la reclamación no se origine en
+        modificaciones realizadas por EL CESIONARIO o terceros, ni en materiales
+        proporcionados por EL CESIONARIO. La responsabilidad máxima de EL
+        CEDENTE por este concepto quedará limitada al tope financiero estipulado
+        en la Cláusula Décima Segunda del contrato principal, esto es, a la suma
+        de NUEVE MILLONES CIENTO ONCE MIL NOVECIENTOS DOS PESOS M/CTE
+        ($9.111.902 COP), sin perjuicio de las exclusiones legales y de las
+        conductas dolosas o gravemente culposas.
+      </Paragraph>
+
+      <Paragraph>
+        EL CESIONARIO mantendrá indemne a EL CEDENTE frente a cualquier
+        reclamación derivada de los datos, contenidos, marcas, logos o
+        materiales proporcionados por EL CESIONARIO, o de las modificaciones
+        realizadas por él o por terceros.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        SÉPTIMA - ENTREGA, CUENTAS Y SERVICIOS DE TERCEROS:
+      </Title>
+
+      <Paragraph>
+        EL CEDENTE entregó a EL CESIONARIO el código fuente, la documentación,
+        los repositorios, las credenciales y demás materiales de EL SOFTWARE,
+        según consta en el Acta de Cierre y Entrega Final. EL CESIONARIO asume
+        desde ya el control, resguardo, protección y administración de las
+        cuentas, dominios, certificados, API keys, suscripciones y servicios de
+        terceros asociados a EL SOFTWARE, que desde el inicio del proyecto han
+        sido operados desde cuentas controladas por EL CESIONARIO. EL CEDENTE no
+        conserva accesos ni credenciales sobre dichos servicios.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        OCTAVA - REGISTRO ANTE LA DNDA:
+      </Title>
+
+      <Paragraph>
+        EL CEDENTE autoriza a EL CESIONARIO a inscribir la presente cesión ante
+        la Dirección Nacional de Derecho de Autor (DNDA) y se obliga a suscribir
+        los documentos adicionales que sean necesarios para tal fin. La
+        inscripción es declarativa y no condiciona la validez de la cesión.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        NOVENA - REMISIÓN AL CONTRATO PRINCIPAL Y CLÁUSULAS DIFERIDAS:
+      </Title>
+
+      <Paragraph>
+        En lo no previsto en este documento, se aplican las estipulaciones del
+        Contrato Principal, sus actas, anexos y otrosíes. Las Partes reconocen
+        que los temas de acuerdo íntegro, severabilidad, supervivencia de
+        obligaciones, confidencialidad, protección de datos personales, cesión
+        del contrato y ejemplares de firma electrónica se desarrollarán en fases
+        posteriores y no condicionan la eficacia de este documento.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Paragraph>
+        Para constancia y en señal de aceptación, se firma a los 17 días del mes
+        de noviembre de 2026.
       </Paragraph>
     </Section>
 
     <SignSection>
-      <SignRow gap="25pt" height="120pt">
-        <SignPadLeft signBy="Yomaira Beytar Florez, Representante REAM" />
+      <SignRow gap="25pt" height="110pt">
+        <SignPadLeft
+          signBy="Yomaira Beytar Florez, Representante Legal REAM - NIT 901.747.145-4"
+        />
         <SignMeRight />
       </SignRow>
     </SignSection>
