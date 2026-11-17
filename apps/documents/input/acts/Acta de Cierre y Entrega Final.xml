@@ -1,0 +1,219 @@
+<Document
+  subject="Acta de Cierre y Entrega Final"
+  title="Plataforma Residuos Ambientales"
+  author="Joan Andrés Buriticá Salazar"
+  keywords="Cierre, Entrega, Software, REAM"
+  creator="Joan Andrés Buriticá Salazar"
+  producer="React PDF with Bun"
+  language="es"
+>
+  <Cover
+    type="Acta de Cierre y Entrega Final"
+    title="Plataforma Residuos Ambientales"
+    month="Noviembre 2026"
+  />
+
+  <Paginate paddingVertical="1.5cm" paddingHorizontal="2cm">
+    <IndicatorHeader value="Ing. Joan A. Buriticá" />
+    <Section marginTop="0" gap="0.1cm">
+      <Text>
+        <Text bold="true">Fecha de Cierre:<S /></Text>
+        17 de noviembre de 2026
+      </Text>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="md">ACTA DE CIERRE Y ENTREGA FINAL</Title>
+
+      <Paragraph>
+        Entre los suscritos, por una parte,
+        <Bold>RESIDUOS AMBIENTALES S.A.S. (REAM)</Bold>, identificada con NIT
+        901.747.145-4,
+        <Bold>representada legalmente por YOMAIRA BEYTAR FLOREZ</Bold>, en
+        adelante EL CONTRATANTE; y por la otra,
+        <Bold>JOAN ANDRÉS BURITICÁ SALAZAR</Bold>, mayor de edad, identificado
+        con cédula de ciudadanía No. 1.143.995.473, con licencia profesional No.
+        171122-0620819 VL expedida por el Consejo Profesional Nacional de
+        Ingeniería (COPNIA), en adelante EL CONTRATISTA, suscriben la presente
+        Acta de Cierre y Entrega Final del
+        <Bold
+          >CONTRATO DE PRESTACIÓN DE SERVICIOS PROFESIONALES CELEBRADO ENTRE
+          RESIDUOS AMBIENTALES S.A.S. Y JOAN ANDRES BURITICA SALAZAR</Bold
+        >, con fecha de inicio 08 de septiembre de 2025.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        PRIMERA - ENTREGABLES RECIBIDOS:
+      </Title>
+
+      <Paragraph>
+        EL CONTRATANTE declara haber recibido y aceptado los siguientes
+        entregables, desarrollados conforme al objeto del contrato, sus Otrosíes
+        No. 1, 2, 3 y 4, el Intercambio de Requerimientos y el Control de
+        Cambios No. 1:
+      </Paragraph>
+
+      <Section marginTop="0" gap="0.1cm">
+        <BulletText>
+          Código fuente y código objeto de la plataforma software.
+        </BulletText>
+        <BulletText>
+          Arquitectura, esquema de base de datos y scripts de despliegue.
+        </BulletText>
+        <BulletText>
+          Diseños de interfaz, flujos de usuario y documentación técnica.
+        </BulletText>
+        <BulletText>
+          Pruebas, manuales y archivos de configuración entregados.
+        </BulletText>
+        <BulletText>
+          Credenciales, repositorios y accesos correspondientes.
+        </BulletText>
+      </Section>
+
+      <Paragraph>
+        La entrega se entiende realizada a satisfacción, sin perjuicio de las
+        actividades pendientes de la Cláusula Segunda y de la Garantía Técnica.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        SEGUNDA - ACTIVIDADES PENDIENTES Y NUEVO ALCANCE:
+      </Title>
+
+      <Paragraph>
+        Las Partes dejan constancia de las siguientes actividades pendientes,
+        que forman parte del contrato, y de las actividades de nuevo alcance,
+        que no forman parte de él:
+      </Paragraph>
+
+      <Table>
+        <Header>
+          <Row>
+            <Cell flex="1">Tipo</Cell>
+            <Cell flex="3">Actividad</Cell>
+            <Cell>Estado</Cell>
+          </Row>
+        </Header>
+        <Body>
+          <Row>
+            <Cell flex="1">Pendiente</Cell>
+            <Cell flex="3">
+              Ajuste del módulo del conductor: corregir las funcionalidades de
+              "Cómo llegar" y llamada.
+            </Cell>
+            <Cell>Por completar</Cell>
+          </Row>
+          <Row>
+            <Cell flex="1">Pendiente</Cell>
+            <Cell flex="3">
+              Preparación y entrega de información: organizar y suministrar la
+              información conforme a la plantilla y especificaciones técnicas
+              recibidas.
+            </Cell>
+            <Cell>Por completar</Cell>
+          </Row>
+          <Row>
+            <Cell flex="1">Nuevo alcance</Cell>
+            <Cell flex="3"> Cambio de proveedor de correo electrónico. </Cell>
+            <Cell>Por cotizar</Cell>
+          </Row>
+          <Row>
+            <Cell flex="1">Nuevo alcance</Cell>
+            <Cell flex="3">
+              Configuración del proveedor de correo electrónico.
+            </Cell>
+            <Cell>Por cotizar</Cell>
+          </Row>
+          <Row>
+            <Cell flex="1">Nuevo alcance</Cell>
+            <Cell flex="3">Migración de información.</Cell>
+            <Cell>Por cotizar</Cell>
+          </Row>
+        </Body>
+      </Table>
+
+      <Paragraph>
+        Las actividades pendientes se mantienen como obligaciones post-cierre y
+        no afectan la aceptación de los entregables recibidos ni la liquidación
+        financiera. Las actividades de nuevo alcance requerirán cotización y
+        propuesta independiente.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left"> TERCERA - GARANTÍA TÉCNICA: </Title>
+
+      <Paragraph>
+        La Garantía Técnica se rige por el Certificado de Garantía suscrito por
+        las Partes en la fecha de este documento, con vigencia del 17 de
+        noviembre de 2026 al 17 de febrero de 2027, y con el alcance,
+        exclusiones y límites de la Cláusula Décima Segunda del contrato
+        principal.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left">
+        CUARTA - PROPIEDAD INTELECTUAL:
+      </Title>
+
+      <Paragraph>
+        La cesión de derechos patrimoniales se rige por el Contrato de Cesión de
+        Derechos Patrimoniales suscrito por las Partes en la fecha de este
+        documento. Verificado el pago del saldo final, la cesión queda
+        perfeccionada en los términos allí previstos, salvaguardando los
+        derechos morales irrenunciables de EL CONTRATISTA.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left">
+        QUINTA - CUENTAS Y SERVICIOS DE TERCEROS:
+      </Title>
+
+      <Paragraph>
+        EL CONTRATANTE asume el control, resguardo, protección y administración
+        de las cuentas, dominios, certificados, API keys, suscripciones y
+        servicios de terceros asociados a la plataforma, que desde el inicio del
+        proyecto han sido operados desde cuentas controladas por EL CONTRATANTE.
+        EL CONTRATISTA no conserva accesos ni credenciales sobre dichos
+        servicios.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true" marginTop="0.5cm">
+      <Title size="xs" textAlign="left">
+        SEXTA - REMISIÓN AL CONTRATO PRINCIPAL:
+      </Title>
+
+      <Paragraph>
+        En lo no previsto en esta acta, se aplican las estipulaciones del
+        Contrato Principal, sus actas, anexos y otrosíes. Las Partes reconocen
+        que los temas de acuerdo íntegro, severabilidad, supervivencia de
+        obligaciones, confidencialidad, protección de datos personales, cesión
+        del contrato y ejemplares de firma electrónica se desarrollarán en fases
+        posteriores y no condicionan la eficacia de este documento.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Paragraph>
+        Para constancia y en señal de aceptación, se firma en Colombia, a los 17
+        días del mes de noviembre de 2026.
+      </Paragraph>
+    </Section>
+
+    <SignSection>
+      <SignRow gap="25pt" height="110pt">
+        <SignPadLeft
+          signBy="Yomaira Beytar Florez, Representante Legal REAM - NIT 901.747.145-4"
+        />
+        <SignMeRight />
+      </SignRow>
+    </SignSection>
+  </Paginate>
+</Document>
