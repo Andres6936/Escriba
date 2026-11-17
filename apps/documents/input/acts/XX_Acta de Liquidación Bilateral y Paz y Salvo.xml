@@ -2,7 +2,7 @@
   subject="Liquidación Bilateral y Paz y Salvo"
   title="Plataforma Residuos Ambientales"
   author="Joan Andrés Buriticá Salazar"
-  keywords="Liquidación, Paz y Salvo, Cierre de Proyecto"
+  keywords="Liquidación, Paz y Salvo, Cierre de Proyecto, REAM"
   creator="Joan Andrés Buriticá Salazar"
   producer="React PDF with Bun"
   language="es"
@@ -17,89 +17,220 @@
     <IndicatorHeader value="Ing. Joan A. Buriticá" />
     <Section marginTop="0" gap="0.1cm">
       <Text>
-        <Text bold="1">
-          Fecha de Suscripción:
-          <S />
-        </Text>
+        <Text bold="true">Fecha de Suscripción:<S /></Text>
         17 de noviembre de 2026
       </Text>
     </Section>
 
-    <Section wrap="1">
-      <Title> ACTA DE LIQUIDACIÓN BILATERAL Y PAZ Y SALVO DEFINITIVO </Title>
+    <Section wrap="true">
+      <Title size="md">
+        ACTA DE LIQUIDACIÓN BILATERAL Y PAZ Y SALVO DEFINITIVO
+      </Title>
 
       <Paragraph>
         Entre los suscritos, por una parte, RESIDUOS AMBIENTALES S.A.S. (REAM),
-        representada legalmente por YOMAIRA BEYTAR FLOREZ, en adelante
-        denominada EL CONTRATANTE, y por la otra, JOAN ANDRÉS BURITICÁ SALAZAR,
-        en adelante denominado EL CONTRATISTA, han acordado celebrar la presente
-        Acta de Liquidación Bilateral del Contrato de Prestación de Servicios de
-        Desarrollo de Software, previas las siguientes consideraciones y
-        cláusulas:
+        identificada con NIT 901.747.145-4, representada legalmente por YOMAIRA
+        BEYTAR FLOREZ, en adelante EL CONTRATANTE; y por la otra, JOAN ANDRÉS
+        BURITICÁ SALAZAR, mayor de edad, identificado con cédula de ciudadanía
+        No. 1.143.995.473, con licencia profesional No. 171122-0620819 VL
+        expedida por el Consejo Profesional Nacional de Ingeniería (COPNIA), en
+        adelante EL CONTRATISTA, han acordado celebrar la presente Acta de
+        Liquidación Bilateral y Paz y Salvo, previas las siguientes
+        consideraciones y cláusulas:
       </Paragraph>
     </Section>
 
-    <Section wrap="1">
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">CONSIDERACIONES:</Title>
+
+      <Paragraph>
+        1. Las Partes suscribieron el CONTRATO DE PRESTACIÓN DE SERVICIOS
+        PROFESIONALES CELEBRADO ENTRE RESIDUOS AMBIENTALES S.A.S. Y JOAN ANDRES
+        BURITICA SALAZAR, con fecha de inicio 08 de septiembre de 2025, y sus
+        Otrosíes No. 1, 2, 3 y 4, el Intercambio de Requerimientos y el Control
+        de Cambios No. 1.
+      </Paragraph>
+
+      <Paragraph>
+        2. EL CONTRATISTA entregó la plataforma software y los entregables
+        descritos en el contrato, según consta en el Acta de Cierre y Entrega
+        Final.
+      </Paragraph>
+
+      <Paragraph>
+        3. EL CONTRATANTE pagó el saldo final de la liquidación por la suma de
+        DOS MILLONES SETECIENTOS OCHENTA Y OCHO MIL DOSCIENTOS CATORCE PESOS
+        M/CTE ($2'788.214 COP), pago verificado mediante el comprobante bancario
+        respectivo.
+      </Paragraph>
+
+      <Paragraph>
+        4. Las Partes desean liquidar el contrato, otorgarse paz y salvo y
+        formalizar la cesión de derechos patrimoniales sobre EL SOFTWARE.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
       <Title size="xs" textAlign="left">
         PRIMERA - DECLARACIÓN DE CUMPLIMIENTO Y CIERRE:
       </Title>
+
       <Paragraph>
-        Las partes declaran de mutuo acuerdo que EL CONTRATISTA ha cumplido a
-        entera satisfacción con la entrega del 100% del alcance funcional,
-        código fuente y requerimientos técnicos estipulados en el Contrato
-        Principal, sus actas derivadas, el documento de "Intercambio de
-        Requerimientos" y los Otrosíes correspondientes (No. 1, 2, 3 y 4). En
-        consecuencia, se declara la terminación definitiva del vínculo
-        contractual por cumplimiento del objeto.
+        Las Partes declaran de mutuo acuerdo que EL CONTRATISTA ha cumplido con
+        la entrega del alcance funcional, el código fuente y los requerimientos
+        técnicos estipulados en el Contrato Principal, sus Otrosíes No. 1, 2, 3
+        y 4, el documento de Intercambio de Requerimientos y el Control de
+        Cambios No. 1, salvo por las actividades pendientes expresamente
+        identificadas en el Acta de Cierre y Entrega Final, las cuales se
+        mantienen como obligaciones post-cierre y no afectan la liquidación
+        financiera.
+      </Paragraph>
+
+      <Paragraph>
+        En consecuencia, se declara la terminación definitiva del vínculo
+        contractual por cumplimiento del objeto, sin perjuicio de las
+        obligaciones que por su naturaleza sobreviven, en particular la garantía
+        técnica, la indemnidad, los derechos morales y las obligaciones de la
+        cesión.
       </Paragraph>
     </Section>
 
-    <Section wrap="1">
+    <Section wrap="true">
       <Title size="xs" textAlign="left">
         SEGUNDA - BALANCE FINANCIERO Y PAZ Y SALVO:
       </Title>
+
       <Paragraph>
         EL CONTRATISTA declara haber recibido a satisfacción la totalidad de los
         desembolsos pactados, incluyendo el pago del saldo final liquidado por
         un valor de DOS MILLONES SETECIENTOS OCHENTA Y OCHO MIL DOSCIENTOS
-        CATORCE PESOS M/CTE ($2'788.214 COP).
+        CATORCE PESOS M/CTE ($2'788.214 COP), verificado mediante el comprobante
+        bancario respectivo.
       </Paragraph>
+
       <Paragraph>
         Por lo anterior, ambas partes declaran que los saldos contables y
         financieros a favor o en contra del presente contrato se encuentran en
-        CERO PESOS ($0). Las partes se otorgan mutuo, amplio y definitivo
-        <Text bold="1">PAZ Y SALVO</Text> por todo concepto (honorarios,
-        intereses, penalidades, indemnizaciones), renunciando de manera expresa
-        e irrevocable a iniciar cualquier tipo de acción, reclamación o demanda
-        civil, comercial o penal por motivos económicos derivados de este
-        contrato.
+        CERO PESOS ($0), sin perjuicio de las obligaciones tributarias que cada
+        Parte asume de forma independiente.
       </Paragraph>
-    </Section>
 
-    <Section wrap="1">
-      <Title size="xs" textAlign="left">
-        TERCERA - INDEPENDENCIA DE LA GARANTÍA TÉCNICA:
-      </Title>
       <Paragraph>
-        Se deja expresa constancia de que la presente liquidación del contrato
-        principal no extingue ni afecta la vigencia de la Garantía Técnica de
-        tres (3) meses sobre corrección de errores (Bugs), la cual continuará
-        activa bajo las exclusiones y el tope de responsabilidad estipulados en
-        el Acta de Entrega Final y la Cláusula Décima Segunda del contrato
-        original.
+        Las Partes se otorgan mutuo, amplio y definitivo
+        <Text bold="true">PAZ Y SALVO</Text> por todo concepto económico
+        (honorarios, intereses, penalidades, indemnizaciones), renunciando de
+        manera expresa e irrevocable a iniciar cualquier acción, reclamación o
+        demanda civil o comercial por motivos económicos conocidos y derivados
+        de este contrato, en la medida permitida por la ley.
+      </Paragraph>
+
+      <Paragraph>
+        El paz y salvo no comprende: (i) las actividades pendientes
+        identificadas en el Acta de Cierre y Entrega Final; (ii) la Garantía
+        Técnica de la Cláusula Tercera; (iii) las obligaciones de la Cesión de
+        Derechos Patrimoniales; (iv) los derechos morales de EL CONTRATISTA; (v)
+        las obligaciones legales de impuestos; (vi) las reclamaciones por dolo o
+        culpa grave; (vii) las acciones que no son renunciables por ley,
+        incluidas las penales; y (viii) el nuevo alcance descrito en la Cláusula
+        Quinta.
       </Paragraph>
     </Section>
 
-    <Section wrap="1">
+    <Section wrap="true">
+      <Title size="xs" textAlign="left"> TERCERA - GARANTÍA TÉCNICA: </Title>
+
+      <Paragraph>
+        La Garantía Técnica de tres (3) meses sobre corrección de errores (Bugs)
+        se rige por el Certificado de Garantía suscrito por las Partes en la
+        fecha de este documento, que establece su vigencia desde el 17 de
+        noviembre de 2026 hasta el 17 de febrero de 2027, con el alcance,
+        exclusiones y límites de la Cláusula Décima Segunda del contrato
+        principal. La garantía es independiente de la presente liquidación y
+        sobrevive a ella.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
       <Title size="xs" textAlign="left"> CUARTA - CESIÓN DE DERECHOS: </Title>
+
       <Paragraph>
-        Al formalizarse el pago descrito en la Cláusula Segunda, se confirma la
-        entrada en vigencia plena del Contrato de Cesión de Derechos
-        Patrimoniales, consolidando la titularidad de explotación económica a
-        favor de EL CONTRATANTE, salvaguardando los derechos morales
-        irrenunciables de EL CONTRATISTA.
+        Habiéndose verificado el pago del saldo final, se confirma la entrada en
+        vigencia plena del Contrato de Cesión de Derechos Patrimoniales suscrito
+        por las Partes en la fecha de este documento, en los términos y con el
+        alcance allí previstos, consolidando la titularidad de explotación
+        económica a favor de EL CONTRATANTE y salvaguardando los derechos
+        morales irrenunciables de EL CONTRATISTA.
       </Paragraph>
 
+      <Paragraph>
+        EL CONTRATISTA autoriza a EL CONTRATANTE a inscribir la cesión ante la
+        Dirección Nacional de Derecho de Autor (DNDA) y se obliga a suscribir
+        los documentos adicionales que sean necesarios para tal fin.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        QUINTA - ACTIVIDADES PENDIENTES Y NUEVO ALCANCE:
+      </Title>
+
+      <Paragraph>
+        Las Partes dejan constancia de las siguientes actividades pendientes,
+        que forman parte del contrato y serán completadas por EL CONTRATISTA en
+        coordinación con EL CONTRATANTE:
+      </Paragraph>
+
+      <BulletText>
+        Ajuste del módulo del conductor: corregir las funcionalidades de "Cómo
+        llegar" y llamada antes de realizar la carga de información de los
+        clientes.
+      </BulletText>
+
+      <BulletText>
+        Preparación y entrega de información: organizar y suministrar la
+        información conforme a la plantilla y especificaciones técnicas
+        recibidas.
+      </BulletText>
+
+      <Paragraph>
+        Las siguientes actividades corresponden a nuevo alcance y no forman
+        parte del contrato ni de esta liquidación: cambio de proveedor de correo
+        electrónico, configuración del proveedor y migración de información. Su
+        ejecución requerirá cotización y propuesta independiente.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        SEXTA - CUENTAS Y SERVICIOS DE TERCEROS:
+      </Title>
+
+      <Paragraph>
+        EL CONTRATANTE asume el control, resguardo, protección y administración
+        de las cuentas, dominios, certificados, API keys, suscripciones y
+        servicios de terceros asociados a la plataforma, que desde el inicio del
+        proyecto han sido operados desde cuentas controladas por EL CONTRATANTE.
+        EL CONTRATISTA no conserva accesos ni credenciales sobre dichos
+        servicios.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
+      <Title size="xs" textAlign="left">
+        SÉPTIMA - REMISIÓN AL CONTRATO PRINCIPAL Y CLÁUSULAS DIFERIDAS:
+      </Title>
+
+      <Paragraph>
+        En lo no previsto en este documento, se aplican las estipulaciones del
+        Contrato Principal, sus actas, anexos y otrosíes. Las Partes reconocen
+        que los temas de acuerdo íntegro, severabilidad, supervivencia de
+        obligaciones, confidencialidad, protección de datos personales, cesión
+        del contrato y ejemplares de firma electrónica se desarrollarán en fases
+        posteriores y no condicionan la eficacia de este documento.
+      </Paragraph>
+    </Section>
+
+    <Section wrap="true">
       <Paragraph>
         Para constancia y en señal de absoluta conformidad, se firma a los 17
         días del mes de noviembre de 2026.
@@ -107,8 +238,10 @@
     </Section>
 
     <SignSection>
-      <SignRow gap="25pt" height="120pt">
-        <SignPadLeft signBy="Yomaira Beytar Florez, Representante REAM" />
+      <SignRow gap="25pt" height="110pt">
+        <SignPadLeft
+          signBy="Yomaira Beytar Florez, Representante Legal REAM - NIT 901.747.145-4"
+        />
         <SignMeRight />
       </SignRow>
     </SignSection>
