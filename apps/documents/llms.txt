@@ -417,8 +417,73 @@ Structure:
 | `textAlign` | `left` \| `center` \| `right` | inherit | Cell alignment. |
 | `width`, `color`, `fontSize`, ... | style | — | Any React-PDF style. |
 
-Keep the **same number of cells per row** in a table; otherwise columns will not
-line up. Empty cells are fine: `<Cell />`.
+**Column alignment (important):** the table is built from independent flex
+rows, so there is no shared column definition. Each `Cell` uses `flex: 1`
+unless it declares `flex`. Column widths only match when every `Cell` in the
+same column repeats the same `flex` value in `Header` and `Body`:
+
+- If a header `Cell` declares `flex="2"`, every `Body` cell in that column must
+  also declare `flex="2"`.
+- If a header `Cell` omits `flex` (implicitly `1`), the body cells in that
+  column must also omit it or declare `flex="1"`.
+- Never use different `flex` values for the same column in different `Header`
+  and `Body` rows: the content will shift and stop lining up with the header.
+- Keep the same number of `Cell` elements, in the same order, in every `Body`
+  row. Empty cells are fine: `<Cell />`.
+
+**Footer exception:** the `Footer` may intentionally break the alignment when
+it is used as a closing/summary band instead of another data row. A typical
+case is a table of quotable items where the footer shows the total with a single
+`Cell` spanning the full width, or with fewer cells and a different `flex`.
+Relax the rule only when that visual break is intentional; if the footer must
+line up with the columns above, repeat the same `flex` values there too.
+
+```xml
+<!-- Correct: column 1 is flex 2 and column 2 is flex 1 in Header and Body -->
+<Header>
+  <Row>
+    <Cell flex="2">Concepto</Cell>
+    <Cell>Valor</Cell>
+  </Row>
+</Header>
+<Body>
+  <Row>
+    <Cell flex="2">Programación</Cell>
+    <Cell>840.000 COP</Cell>
+  </Row>
+</Body>
+
+<!-- Wrong: the body lost flex="2", so column 1 no longer aligns with the header -->
+<Header>
+  <Row>
+    <Cell flex="2">Concepto</Cell>
+    <Cell>Valor</Cell>
+  </Row>
+</Header>
+<Body>
+  <Row>
+    <Cell>Programación</Cell>
+    <Cell>840.000 COP</Cell>
+  </Row>
+</Body>
+```
+
+```xml
+<!-- Footer as a summary band: one full-width Cell, alignment not applicable -->
+<Footer>
+  <Row>
+    <Cell>Inversión Total: 2.094.960 COP</Cell>
+  </Row>
+</Footer>
+
+<!-- Footer aligned with the columns: repeat the same flex values -->
+<Footer>
+  <Row>
+    <Cell flex="2">Inversión Total</Cell>
+    <Cell textAlign="right">2.094.960 COP</Cell>
+  </Row>
+</Footer>
+```
 
 ---
 
